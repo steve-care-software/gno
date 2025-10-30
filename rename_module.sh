@@ -19,9 +19,13 @@ while IFS= read -r -d '' gomod; do
 done < <(find . -type f -name go.mod -not -path '*/.git/*' -print0)
 
 echo "==> Rewrite ALL references to imports/paths"
-find . -type f -not -path '*/.git/*' -print0 \
-| xargs -0 grep -IlZ "$OLD" \
-| xargs -0 sed -i '' "s|$OLD|$NEW|g"
+find . -type f -not -path '*/.git/*' -print0 |
+while IFS= read -r -d '' file; do
+  if grep -q "$OLD" "$file" 2>/dev/null; then
+    echo "Updating $file"
+    LC_ALL=C sed -i '' "s|$OLD|$NEW|g" "$file" || echo "⚠️  Skipped (binary or too large): $file"
+  fi
+done
 
 echo "==> Tidy each module"
 while IFS= read -r -d '' gomod; do
