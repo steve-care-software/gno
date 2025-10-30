@@ -22,7 +22,7 @@ This document is an overview of the various methods to interact with gnoland. Th
 
 ## Gno Native Kit
 
-**What is it?** [Gno Native Kit](https://github.com/steve-care-software/gnonative) is a framework that allows developers to build and port gno.land dApps written in the dApp's native language such as TypeScript, Java or C#. It is a wrapper on top of the `gnoclient` and `crypto/keys` which allows your app to use the functionality in these core Gno packages.
+**What is it?** [Gno Native Kit](https://github.com/gnolang/gnonative) is a framework that allows developers to build and port gno.land dApps written in the dApp's native language such as TypeScript, Java or C#. It is a wrapper on top of the `gnoclient` and `crypto/keys` which allows your app to use the functionality in these core Gno packages.
 
 **When to use it?** If your app is not written in Go (for example, React Native on mobile), then Gno Native Kit can provide access to all the functionality.
 

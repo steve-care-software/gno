@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"connectrpc.com/connect"
-	api_gen "github.com/steve-care-software/gnonative/v4/api/gen/go"
-	"github.com/steve-care-software/gnonative/v4/api/gen/go/_goconnect"
-	"github.com/steve-care-software/gnonative/v4/service"
+	api_gen "github.com/gnolang/gnonative/v4/api/gen/go"
+	"github.com/gnolang/gnonative/v4/api/gen/go/_goconnect"
+	"github.com/gnolang/gnonative/v4/service"
 )
 
 func main() {
