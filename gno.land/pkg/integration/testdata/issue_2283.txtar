@@ -1,4 +1,4 @@
-# Test for https://github.com/gnolang/gno/issues/2283
+# Test for https://github.com/steve-care-software/gno/issues/2283
 
 # These are not necessary, but they "alleviate" add_feeds.tx from the
 # responsibility of loading standard libraries, thus not making it exceed

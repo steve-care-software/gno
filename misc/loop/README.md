@@ -4,7 +4,7 @@
 
 It's a Gnoland node that aim to run with always the latest version of gno and never loose transactions history.
 
-For more information, see issue on github [gnolang/gno#1239](https://github.com/gnolang/gno/issues/1239)
+For more information, see issue on github [gnolang/gno#1239](https://github.com/steve-care-software/gno/issues/1239)
 
 ## How to use
 

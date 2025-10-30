@@ -19,10 +19,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/async"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
-	"github.com/gnolang/gno/tm2/pkg/random"
+	"github.com/steve-care-software/gno/tm2/pkg/async"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 type kvstoreConn struct {

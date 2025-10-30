@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	r "github.com/gnolang/gno/tm2/pkg/regx"
+	r "github.com/steve-care-software/gno/tm2/pkg/regx"
 )
 
 // NOTE: TypeID() implementations are currently

@@ -7,7 +7,7 @@ import (
 	"github.com/gnolang/contribs/gnogenesis/internal/txs"
 	"github.com/gnolang/contribs/gnogenesis/internal/validator"
 	"github.com/gnolang/contribs/gnogenesis/internal/verify"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 func newGenesisCmd(io commands.IO) *commands.Command {

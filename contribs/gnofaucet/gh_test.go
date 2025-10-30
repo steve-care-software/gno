@@ -16,7 +16,7 @@ import (
 	"github.com/redis/go-redis/v9"
 	"github.com/stretchr/testify/assert"
 
-	igh "github.com/gnolang/gno/contribs/gnofaucet/github"
+	igh "github.com/steve-care-software/gno/contribs/gnofaucet/github"
 )
 
 var noopLogger = slog.New(slog.NewTextHandler(io.Discard, nil))

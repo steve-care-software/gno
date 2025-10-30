@@ -3,7 +3,7 @@ module github.com/gnolang/contribs/gnogenesis
 go 1.23.6
 
 require (
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.10.0
 )
 
@@ -88,4 +88,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..

@@ -179,7 +179,7 @@ type PrivateData struct {
     Tree  *avl.Tree
 }
 
-// PrivateData2 is to avoid this issue: https://github.com/gnolang/gno/issues/4507
+// PrivateData2 is to avoid this issue: https://github.com/steve-care-software/gno/issues/4507
 type PrivateData2 struct {
     Name  string
     Value int

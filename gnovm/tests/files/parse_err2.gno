@@ -1,4 +1,4 @@
-// https://github.com/gnolang/gno/issues/3751
+// https://github.com/steve-care-software/gno/issues/3751
 package main
 
 import "testing"

@@ -4,13 +4,13 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/sdk/bank"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/bank"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 var (

@@ -5,15 +5,15 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/client"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/client"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type MakeAddPkgCfg struct {

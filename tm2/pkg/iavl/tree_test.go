@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/goleveldb"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	iavlrand "github.com/gnolang/gno/tm2/pkg/random"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/goleveldb"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	iavlrand "github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 var (

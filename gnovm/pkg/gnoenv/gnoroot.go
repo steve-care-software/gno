@@ -14,7 +14,7 @@ import (
 var ErrUnableToGuessGnoRoot = errors.New("gno was unable to determine GNOROOT. Please set the GNOROOT environment variable")
 
 // Can be set manually at build time using:
-// -ldflags="-X github.com/gnolang/gno/gnovm/pkg/gnoenv._GNOROOT"
+// -ldflags="-X github.com/steve-care-software/gno/gnovm/pkg/gnoenv._GNOROOT"
 var _GNOROOT string
 
 // RootDir guesses the Gno root directory and panics if it fails.
@@ -82,7 +82,7 @@ func inferRootFromGoMod() (string, error) {
 		return "", fmt.Errorf("unable to find `go` binary: %w", err)
 	}
 
-	cmd := exec.Command(gobin, "list", "-m", "-mod=mod", "-f", "{{.Dir}}", "github.com/gnolang/gno")
+	cmd := exec.Command(gobin, "list", "-m", "-mod=mod", "-f", "{{.Dir}}", "github.com/steve-care-software/gno")
 	out, err := cmd.CombinedOutput()
 	if err != nil {
 		return "", fmt.Errorf("unable to infer GnoRoot from go.mod: %w", err)

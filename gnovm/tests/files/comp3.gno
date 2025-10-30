@@ -1,7 +1,7 @@
 package main
 
 func main() {
-	// test against uninitialized value: https://github.com/gnolang/gno/pull/1132
+	// test against uninitialized value: https://github.com/steve-care-software/gno/pull/1132
 	var x string
 	y := "Hello"
 	results := [...]bool{

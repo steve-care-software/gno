@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/events"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
 )
 
 var ErrEmptyState = errors.New("empty state")

@@ -1,9 +1,9 @@
 package gas
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/overflow"
-	"github.com/gnolang/gno/tm2/pkg/store/types"
-	"github.com/gnolang/gno/tm2/pkg/store/utils"
+	"github.com/steve-care-software/gno/tm2/pkg/overflow"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/store/utils"
 )
 
 var _ types.Store = &Store{}

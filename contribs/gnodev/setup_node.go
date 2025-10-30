@@ -8,15 +8,15 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/address"
-	gnodev "github.com/gnolang/gno/contribs/gnodev/pkg/dev"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/emitter"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/packages"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/address"
+	gnodev "github.com/steve-care-software/gno/contribs/gnodev/pkg/dev"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/emitter"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/packages"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 // extractDependenciesFromTxs extracts dependencies from transactions and adds them to the paths slice and config.BalancesList.

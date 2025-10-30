@@ -2,10 +2,10 @@ module github.com/steve-care-software/gno/contribs/gnokms
 
 go 1.23.6
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
 require (
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 	github.com/rs/xid v1.6.0
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/multierr v1.11.0

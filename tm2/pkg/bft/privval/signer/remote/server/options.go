@@ -5,10 +5,10 @@ import (
 	"log/slog"
 	"time"
 
-	r "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	r "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 // Default connection config.

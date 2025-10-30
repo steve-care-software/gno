@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/events"
-	"github.com/gnolang/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
 )
 
 // Service connects the event bus and event store together in order

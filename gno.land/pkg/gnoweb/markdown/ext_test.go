@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/weburl"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/weburl"
 	"github.com/stretchr/testify/require"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/parser"

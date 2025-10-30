@@ -3,7 +3,7 @@ package async
 import (
 	"sync/atomic"
 
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 //----------------------------------------

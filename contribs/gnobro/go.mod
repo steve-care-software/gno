@@ -12,8 +12,8 @@ require (
 	github.com/charmbracelet/log v0.4.0
 	github.com/charmbracelet/ssh v0.0.0-20240725163421-eb71b85b27aa
 	github.com/charmbracelet/wish v1.4.1
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
-	github.com/gnolang/gno/contribs/gnodev v0.0.0-20250711100953-38654e0b60d9
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno/contribs/gnodev v0.0.0-20250711100953-38654e0b60d9
 	github.com/gorilla/websocket v1.5.3
 	github.com/lrstanley/bubblezone v1.0.0
 	github.com/muesli/reflow v0.3.0
@@ -134,6 +134,6 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
-replace github.com/gnolang/gno/contribs/gnodev => ../gnodev
+replace github.com/steve-care-software/gno/contribs/gnodev => ../gnodev

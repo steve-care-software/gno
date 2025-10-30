@@ -1,8 +1,8 @@
 package auth
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/sdk"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 // EndBlocker is called in the EndBlock(), it calcuates the minimum gas price

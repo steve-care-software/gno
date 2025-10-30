@@ -3,11 +3,11 @@ module github.com/steve-care-software/gnomigrate
 go 1.23.6
 
 require (
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 	github.com/stretchr/testify v1.10.0
 )
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
 require (
 	dario.cat/mergo v1.0.1 // indirect

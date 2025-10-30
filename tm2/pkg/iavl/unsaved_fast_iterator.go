@@ -6,9 +6,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/iavl/fastnode"
-	ibytes "github.com/gnolang/gno/tm2/pkg/iavl/internal/bytes"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl/fastnode"
+	ibytes "github.com/steve-care-software/gno/tm2/pkg/iavl/internal/bytes"
 )
 
 var (

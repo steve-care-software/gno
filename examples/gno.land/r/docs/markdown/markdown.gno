@@ -796,7 +796,7 @@ The markdown support in Gno is being actively developed. Future enhancements may
 - Rich rendering of on-chain data
 - Better integration with Gno's package system
 
-[Read more](https://github.com/gnolang/gno/issues/3255)
+[Read more](https://github.com/steve-care-software/gno/issues/3255)
 
 ## Conclusion
 

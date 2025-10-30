@@ -5,7 +5,7 @@ package ledger
 import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	ledger_go "github.com/cosmos/ledger-cosmos-go"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
 )
 
 // SECP256K1 reflects an interface a Ledger API must implement for SECP256K1

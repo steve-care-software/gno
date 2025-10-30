@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 var errSignatureMismatch = errors.New("signature does not match signature bytes")

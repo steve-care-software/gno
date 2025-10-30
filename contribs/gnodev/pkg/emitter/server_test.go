@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/events"
-	"github.com/gnolang/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

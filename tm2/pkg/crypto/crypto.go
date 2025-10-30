@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/bech32"
-	"github.com/gnolang/gno/tm2/pkg/crypto/tmhash"
+	"github.com/steve-care-software/gno/tm2/pkg/bech32"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/tmhash"
 )
 
 // ----------------------------------------

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"flag"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
 )
 
 type DeleteCfg struct {

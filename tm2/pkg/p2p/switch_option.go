@@ -1,7 +1,7 @@
 package p2p
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 // SwitchOption is a callback used for configuring the p2p MultiplexSwitch

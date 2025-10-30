@@ -7,11 +7,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
-	"github.com/gnolang/gno/tm2/pkg/crypto/multisig"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/multisig"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 var (

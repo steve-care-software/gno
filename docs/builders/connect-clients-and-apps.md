@@ -8,8 +8,8 @@ to query the blockchain and submit transactions.
 
 Gno.land provides several client libraries to interact with the blockchain:
 
-- **[gnoclient](https://gnolang.github.io/gno/github.com/gnolang/gno/gno.land/pkg/gnoclient.html)** - The official Go client for connecting to Gno.land networks
-- **[gno-js-client](https://github.com/gnolang/gno-js-client)** - A JavaScript client for building web applications
+- **[gnoclient](https://gnolang.github.io/gno/github.com/steve-care-software/gno/gno.land/pkg/gnoclient.html)** - The official Go client for connecting to Gno.land networks
+- **[gno-js-client](https://github.com/steve-care-software/gno-js-client)** - A JavaScript client for building web applications
 - **[tm2-js-client](https://github.com/gnolang/tm2-js-client)** - A lower-level JavaScript client for direct RPC access
 
 ## Understanding Gno.land's RPC Interface

@@ -7,12 +7,12 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/bip39"
-	"github.com/gnolang/gno/tm2/pkg/crypto/hd"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/bip39"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/hd"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
 )
 
 var (

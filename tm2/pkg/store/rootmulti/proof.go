@@ -4,10 +4,10 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto/merkle"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/merkle"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
 )
 
 // MultiStoreProof defines a collection of store proofs in a multi-store

@@ -14,9 +14,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/gnovm/pkg/gnofmt"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnofmt"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 	"github.com/rogpeppe/go-internal/diff"
 )
 

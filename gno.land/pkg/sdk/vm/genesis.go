@@ -3,9 +3,9 @@ package vm
 import (
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/sdk"
-	"github.com/gnolang/gno/tm2/pkg/sdk/params"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/params"
 )
 
 // GenesisState - all state that must be provided at genesis

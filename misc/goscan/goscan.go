@@ -9,7 +9,7 @@ import (
 	"os"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 func main() {

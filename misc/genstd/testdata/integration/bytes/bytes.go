@@ -1,7 +1,7 @@
 package bytes
 
 import (
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 )
 
 func X_myNative(m *gno.Machine) gno.TypedValue {

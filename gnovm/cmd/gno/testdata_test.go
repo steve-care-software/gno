@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/integration"
+	"github.com/steve-care-software/gno/gnovm/pkg/integration"
 	"github.com/rogpeppe/go-internal/testscript"
 	"github.com/stretchr/testify/require"
 )

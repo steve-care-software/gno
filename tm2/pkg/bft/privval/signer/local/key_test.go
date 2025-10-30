@@ -5,9 +5,9 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

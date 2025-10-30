@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb"
-	"github.com/gnolang/gno/gno.land/pkg/log"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

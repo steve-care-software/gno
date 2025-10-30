@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	"github.com/gnolang/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
 )
 
 // TODO move to another file.

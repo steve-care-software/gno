@@ -4,7 +4,7 @@
 set -u
 
 DOC_DIR=godoc
-PKG=github.com/gnolang/gno
+PKG=github.com/steve-care-software/gno
 # Used to load /static content
 STATIC_PREFIX=/gno
 

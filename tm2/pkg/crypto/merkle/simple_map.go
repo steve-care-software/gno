@@ -3,9 +3,9 @@ package merkle
 import (
 	"bytes"
 
-	amino "github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto/tmhash"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	amino "github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/tmhash"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 // Merkle tree from a map.

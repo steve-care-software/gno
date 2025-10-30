@@ -3,9 +3,9 @@ package core
 import (
 	"fmt"
 
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	rpctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	rpctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
 )
 
 // Tx allows you to query the transaction results. `nil` could mean the

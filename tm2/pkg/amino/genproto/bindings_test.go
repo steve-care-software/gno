@@ -6,7 +6,7 @@ import (
 	"go/token"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino/tests"
+	"github.com/steve-care-software/gno/tm2/pkg/amino/tests"
 	"github.com/stretchr/testify/assert"
 )
 

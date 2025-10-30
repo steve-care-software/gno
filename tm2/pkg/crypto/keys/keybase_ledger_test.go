@@ -3,7 +3,7 @@ package keys
 import (
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto/internal/ledger"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/internal/ledger"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

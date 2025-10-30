@@ -3,7 +3,7 @@ package iavl
 import (
 	"sync"
 
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
 )
 
 // BatchWithFlusher is a wrapper

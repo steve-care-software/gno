@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

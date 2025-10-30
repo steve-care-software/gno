@@ -7,10 +7,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
-	"github.com/gnolang/gno/tm2/pkg/crypto/tmhash"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/tmhash"
 )
 
 type voteData struct {

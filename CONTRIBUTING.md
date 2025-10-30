@@ -5,7 +5,7 @@ Thank you for contributing to Gno! This guide will help you get started.
 ## Important Resources
 
 - **[Documentation](https://docs.gno.land)** - comprehensive documentation for Gno
-- **[Go Package Docs](https://gnolang.github.io/gno/github.com/gnolang/gno.html)** - API reference documentation
+- **[Go Package Docs](https://gnolang.github.io/gno/github.com/steve-care-software/gno.html)** - API reference documentation
 - **[Awesome Gno](https://github.com/gnoverse/awesome-gno** - curated list of Gno resources
 - **[Discord](https://discord.gg/YFtMjWwUN7)** - join our community for discussions and support
 
@@ -20,7 +20,7 @@ Thank you for contributing to Gno! This guide will help you get started.
 ### Setup
 
 ```bash
-git clone https://github.com/gnolang/gno.git
+git clone https://github.com/steve-care-software/gno.git
 cd gno
 make install
 ```

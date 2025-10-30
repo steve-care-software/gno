@@ -3,7 +3,7 @@ package types
 import (
 	"math"
 
-	"github.com/gnolang/gno/tm2/pkg/overflow"
+	"github.com/steve-care-software/gno/tm2/pkg/overflow"
 )
 
 // Gas consumption descriptors.

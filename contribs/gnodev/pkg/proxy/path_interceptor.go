@@ -17,10 +17,10 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	rpctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	rpctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type PathHandler func(path ...string)

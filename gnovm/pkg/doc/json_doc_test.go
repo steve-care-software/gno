@@ -4,7 +4,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

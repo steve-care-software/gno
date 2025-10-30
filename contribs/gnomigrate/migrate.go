@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gnomigrate/internal/txs"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gnomigrate/internal/txs"
 )
 
 func newMigrateCmd(io commands.IO) *commands.Command {

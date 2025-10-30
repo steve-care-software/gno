@@ -5,9 +5,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/store/cache"
-	"github.com/gnolang/gno/tm2/pkg/store/dbadapter"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/store/cache"
+	"github.com/steve-care-software/gno/tm2/pkg/store/dbadapter"
 )
 
 func benchmarkCacheStoreIterator(b *testing.B, numKVs int) {

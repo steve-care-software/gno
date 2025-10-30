@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/gnolang/gno/tm2/pkg/iavl/cache"
-	"github.com/gnolang/gno/tm2/pkg/iavl/internal/encoding"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl/cache"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl/internal/encoding"
 )
 
 // NOTE: This file favors int64 as opposed to int for size/counts.

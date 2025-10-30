@@ -8,8 +8,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/db/mockdb"
-	"github.com/gnolang/gno/tm2/pkg/store/dbadapter"
+	"github.com/steve-care-software/gno/tm2/pkg/db/mockdb"
+	"github.com/steve-care-software/gno/tm2/pkg/store/dbadapter"
 )
 
 var errFoo = errors.New("dummy")

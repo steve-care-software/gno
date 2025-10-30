@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/log"
-	sserver "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote/server"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
+	sserver "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote/server"
 	"go.uber.org/zap/zapcore"
 )
 

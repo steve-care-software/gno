@@ -9,15 +9,15 @@ import (
 	"io"
 	"os"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/sdk/bank"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/bank"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 
-	_ "github.com/gnolang/gno/gno.land/pkg/sdk/vm"
+	_ "github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
 )
 
 var (

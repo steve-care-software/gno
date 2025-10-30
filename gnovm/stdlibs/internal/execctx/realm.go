@@ -3,7 +3,7 @@ package execctx
 import (
 	"fmt"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 )
 
 func GetRealm(m *gno.Machine, height int) (addr, pkgPath string) {

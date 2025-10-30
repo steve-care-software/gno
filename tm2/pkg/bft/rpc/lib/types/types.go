@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 // JSONRPCID is a wrapper type for JSON-RPC request IDs,

@@ -9,11 +9,11 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	rss "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote/server"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	rss "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote/server"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 	"go.uber.org/multierr"
 )
 

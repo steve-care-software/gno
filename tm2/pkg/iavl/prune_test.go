@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/db/goleveldb"
+	"github.com/steve-care-software/gno/tm2/pkg/db/goleveldb"
 )
 
 func TestAsyncPruning(t *testing.T) {

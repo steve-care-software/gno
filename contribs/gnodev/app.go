@@ -12,17 +12,17 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/address"
-	gnodev "github.com/gnolang/gno/contribs/gnodev/pkg/dev"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/emitter"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/packages"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/proxy"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/rawterm"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/watcher"
-	"github.com/gnolang/gno/gno.land/pkg/integration"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/address"
+	gnodev "github.com/steve-care-software/gno/contribs/gnodev/pkg/dev"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/emitter"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/packages"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/proxy"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/rawterm"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/watcher"
+	"github.com/steve-care-software/gno/gno.land/pkg/integration"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto/armor"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/armor"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 )
 

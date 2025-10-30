@@ -5,10 +5,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/stdlibs"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/stdlibs"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 const (

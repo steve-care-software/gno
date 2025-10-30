@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
 )
 
 // ABCIQueryOptions can be used to provide options for ABCIQuery call other

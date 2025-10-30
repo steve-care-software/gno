@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	// for error types
-	"github.com/gnolang/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
 )
 
 const HelpViewType ViewType = "help-view"

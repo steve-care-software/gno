@@ -5,11 +5,11 @@ import (
 	"log/slog"
 	"path/filepath"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	rsclient "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote/client"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	rsclient "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote/client"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 // PrivValidatorConfig defines the configuration for the PrivValidator, with a local or remote

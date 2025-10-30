@@ -6,7 +6,7 @@ toolchain go1.23.8
 
 require (
 	connectrpc.com/connect v1.16.2
-	github.com/gnolang/gnonative/v4 v4.2.2
+	github.com/steve-care-software/gnonative/v4 v4.2.2
 )
 
 require (
@@ -22,7 +22,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.3.0 // indirect
 	github.com/emicklei/dot v1.6.2 // indirect
-	github.com/gnolang/gno v0.1.2-0.20240826090356-651f5aac3706 // indirect
+	github.com/steve-care-software/gno v0.1.2-0.20240826090356-651f5aac3706 // indirect
 	github.com/go-logr/logr v1.4.2 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/gofrs/flock v0.12.1 // indirect
@@ -74,4 +74,4 @@ require (
 	moul.io/u v1.27.0 // indirect
 )
 
-replace github.com/gnolang/gno => ../../../
+replace github.com/steve-care-software/gno => ../../../

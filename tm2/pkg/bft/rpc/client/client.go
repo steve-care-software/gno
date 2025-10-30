@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	rpcclient "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/client"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/client/batch"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/client/http"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/client/ws"
-	rpctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	rpcclient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/client"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/client/batch"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/client/http"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/client/ws"
+	rpctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
 	"github.com/rs/xid"
 )
 

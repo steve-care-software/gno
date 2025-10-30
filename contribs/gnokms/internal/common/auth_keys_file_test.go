@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

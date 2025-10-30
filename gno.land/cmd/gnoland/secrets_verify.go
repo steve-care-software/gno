@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"path/filepath"
 
-	signer "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	signer "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 type secretsVerifyCfg struct {

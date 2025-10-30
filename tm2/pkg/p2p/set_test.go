@@ -4,7 +4,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/p2p/mock"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/mock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	rpcClient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	rpcClient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 const (

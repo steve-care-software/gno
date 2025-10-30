@@ -1,7 +1,7 @@
 package markdown
 
 import (
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/weburl"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/weburl"
 	"github.com/yuin/goldmark/parser"
 )
 

@@ -8,7 +8,7 @@ require (
 	github.com/Khan/genqlient v0.8.1
 	github.com/alicebob/miniredis/v2 v2.35.0
 	github.com/gnolang/faucet v0.5.3
-	github.com/gnolang/gno v0.0.0-20250901125041-596de150f06c
+	github.com/steve-care-software/gno v0.0.0-20250901125041-596de150f06c
 	github.com/google/go-github/v64 v64.0.0
 	github.com/google/go-github/v74 v74.0.0
 	github.com/google/uuid v1.6.0

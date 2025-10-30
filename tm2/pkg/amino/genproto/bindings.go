@@ -14,9 +14,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/amino/genproto/stringutil"
-	"github.com/gnolang/gno/tm2/pkg/amino/pkg"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino/genproto/stringutil"
+	"github.com/steve-care-software/gno/tm2/pkg/amino/pkg"
 )
 
 const (
@@ -41,7 +41,7 @@ func GenerateProtoBindingsForTypes(pkg *amino.Package, rtz ...reflect.Type) (fil
 	scope := ast.NewScope(nil)
 	imports := _imports(
 		"proto", "google.golang.org/protobuf/proto",
-		"amino", "github.com/gnolang/gno/tm2/pkg/amino")
+		"amino", "github.com/steve-care-software/gno/tm2/pkg/amino")
 	addImportAuto(imports, scope, pkg.GoPkgName+"pb", pkg.P3GoPkgPath)
 	file.Decls = append(file.Decls, imports)
 

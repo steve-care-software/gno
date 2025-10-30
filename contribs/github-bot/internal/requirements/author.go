@@ -1,8 +1,8 @@
 package requirements
 
 import (
-	"github.com/gnolang/gno/contribs/github-bot/internal/client"
-	"github.com/gnolang/gno/contribs/github-bot/internal/conditions"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/client"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/conditions"
 
 	"github.com/google/go-github/v64/github"
 	"github.com/xlab/treeprint"

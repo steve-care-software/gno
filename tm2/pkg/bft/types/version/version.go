@@ -1,7 +1,7 @@
 package version
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 // Versioning for just the structure of the block.

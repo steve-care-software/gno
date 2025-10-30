@@ -3,8 +3,8 @@ package client
 import (
 	"context"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/version"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/version"
 )
 
 func NewVersionCmd(rootCfg *BaseCfg, io commands.IO) *commands.Command {

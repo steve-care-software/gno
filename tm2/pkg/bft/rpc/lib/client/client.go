@@ -3,7 +3,7 @@ package rpcclient
 import (
 	"context"
 
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
 )
 
 // Client is the JSON-RPC client abstraction

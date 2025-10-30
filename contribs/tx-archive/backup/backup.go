@@ -1,18 +1,18 @@
 package backup
 
-//nolint:revive // See https://github.com/gnolang/gno/issues/1197
+//nolint:revive // See https://github.com/steve-care-software/gno/issues/1197
 import (
 	"context"
 	"fmt"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	_ "github.com/gnolang/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	_ "github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
 
-	"github.com/gnolang/gno/contribs/tx-archive/backup/client"
-	"github.com/gnolang/gno/contribs/tx-archive/backup/writer"
-	"github.com/gnolang/gno/contribs/tx-archive/log"
-	"github.com/gnolang/gno/contribs/tx-archive/log/noop"
+	"github.com/steve-care-software/gno/contribs/tx-archive/backup/client"
+	"github.com/steve-care-software/gno/contribs/tx-archive/backup/writer"
+	"github.com/steve-care-software/gno/contribs/tx-archive/log"
+	"github.com/steve-care-software/gno/contribs/tx-archive/log/noop"
 )
 
 const DefaultBatchSize = 1000

@@ -10,7 +10,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 	"golang.org/x/sync/errgroup"
 )
 

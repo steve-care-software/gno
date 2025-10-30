@@ -3,8 +3,8 @@ package merkle
 import (
 	"testing"
 
-	amino "github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	amino "github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/markdown"
-	"github.com/gnolang/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/markdown"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
 	"github.com/stretchr/testify/assert"
 )
 

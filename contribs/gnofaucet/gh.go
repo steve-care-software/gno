@@ -14,12 +14,12 @@ import (
 
 	"github.com/gnolang/faucet"
 	"github.com/gnolang/faucet/spec"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"github.com/google/go-github/v64/github"
 	"github.com/google/uuid"
 	"github.com/redis/go-redis/v9"
 
-	igh "github.com/gnolang/gno/contribs/gnofaucet/github"
+	igh "github.com/steve-care-software/gno/contribs/gnofaucet/github"
 )
 
 // type to scope the context.Context values to this package.

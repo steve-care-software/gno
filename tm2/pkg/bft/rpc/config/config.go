@@ -59,7 +59,7 @@ type RPCConfig struct {
 	// How long to wait for a tx to be committed during /broadcast_tx_commit
 	// WARNING: Using a value larger than 10s will result in increasing the
 	// global HTTP write timeout, which applies to all connections and endpoints.
-	// See https://github.com/gnolang/gno/tm2/pkg/bft/issues/3435
+	// See https://github.com/steve-care-software/gno/tm2/pkg/bft/issues/3435
 	TimeoutBroadcastTxCommit time.Duration `json:"timeout_broadcast_tx_commit" toml:"timeout_broadcast_tx_commit" comment:"How long to wait for a tx to be committed during /broadcast_tx_commit.\n WARNING: Using a value larger than 10s will result in increasing the\n global HTTP write timeout, which applies to all connections and endpoints.\n See https://github.com/tendermint/classic/issues/3435"`
 
 	// Maximum size of request body, in bytes

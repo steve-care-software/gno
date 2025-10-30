@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/url"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/weburl"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/weburl"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/parser"

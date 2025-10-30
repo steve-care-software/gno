@@ -20,7 +20,7 @@ jobs:
     uses: ./.github/workflows/template_main.yml
     with:
       modulepath: "gnovm"
-      tests-extra-args: "-coverpkg=github.com/gnolang/gno/gnovm/..."
+      tests-extra-args: "-coverpkg=github.com/steve-care-software/gno/gnovm/..."
     secrets:
       codecov-token: ${{ secrets.CODECOV_TOKEN }}
   stdlibs-fmt:

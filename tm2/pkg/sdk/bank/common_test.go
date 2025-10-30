@@ -3,16 +3,16 @@ package bank
 // DONTCOVER
 
 import (
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/log"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 
-	"github.com/gnolang/gno/tm2/pkg/sdk"
-	"github.com/gnolang/gno/tm2/pkg/sdk/auth"
-	"github.com/gnolang/gno/tm2/pkg/sdk/params"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/store"
-	"github.com/gnolang/gno/tm2/pkg/store/iavl"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/auth"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/params"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/store/iavl"
 )
 
 type testEnv struct {

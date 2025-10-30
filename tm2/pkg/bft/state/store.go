@@ -4,11 +4,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 const (

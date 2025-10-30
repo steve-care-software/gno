@@ -4,9 +4,9 @@ import (
 	"context"
 	"os"
 
-	"github.com/gnolang/gno/contribs/gnokms/internal/auth"
-	"github.com/gnolang/gno/contribs/gnokms/internal/gnokey"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/gnokms/internal/auth"
+	"github.com/steve-care-software/gno/contribs/gnokms/internal/gnokey"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 func main() {

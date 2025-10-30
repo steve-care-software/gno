@@ -31,7 +31,7 @@ Explore various examples to learn more about Gno functionality and usage.
 - [Common Solidity Patterns](/r/docs/soliditypatterns) - A list of common Solidity coding practices, converted to Gno equivalents.
 - [Private Realms](/r/docs/private) - Documentation for private realms in Gno.
 - More coming soon!
-<!-- meta issue with suggestions: https://github.com/gnolang/gno/issues/3292 -->
+<!-- meta issue with suggestions: https://github.com/steve-care-software/gno/issues/3292 -->
 
 ## Other resources
 

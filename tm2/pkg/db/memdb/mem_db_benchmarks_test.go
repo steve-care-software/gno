@@ -3,7 +3,7 @@ package memdb
 import (
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/db/internal"
+	"github.com/steve-care-software/gno/tm2/pkg/db/internal"
 )
 
 func BenchmarkMemDBRandomReadsWrites(b *testing.B) {

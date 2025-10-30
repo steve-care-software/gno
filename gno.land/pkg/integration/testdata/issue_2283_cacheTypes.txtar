@@ -1,4 +1,4 @@
-# Test for https://github.com/gnolang/gno/issues/2283
+# Test for https://github.com/steve-care-software/gno/issues/2283
 # This is an earlier variant of the txtar which likely shares the same cause;
 # but instead of causing an index out of range, it causes a "should not happen"
 # panic from the store.

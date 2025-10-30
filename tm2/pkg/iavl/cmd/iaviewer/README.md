@@ -9,7 +9,7 @@ Below is a brief introduction to the tool.
 Once this is merged into the offical repo, master, you should be able to do:
 
 ```shell
-go get github.com/gnolang/gno
+go get github.com/steve-care-software/gno
 cd ${GOPATH}/src/gno/tm2/pkg/iavl
 make install
 ```

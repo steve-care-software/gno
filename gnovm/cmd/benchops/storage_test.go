@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,7 +5,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang/internal/softfloat"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang/internal/softfloat"
 )
 
 // This file contains functions to convert values and types from Go to Gno, and

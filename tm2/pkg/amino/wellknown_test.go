@@ -3,8 +3,8 @@ package amino_test
 import (
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/amino/tests"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino/tests"
 	"github.com/stretchr/testify/assert"
 )
 

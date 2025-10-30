@@ -3,11 +3,11 @@ package dev_test
 import (
 	"testing"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/address"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/dev"
-	"github.com/gnolang/gno/gno.land/pkg/integration"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/address"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/dev"
+	"github.com/steve-care-software/gno/gno.land/pkg/integration"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

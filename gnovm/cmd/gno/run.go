@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/test"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/test"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type runCmd struct {
@@ -53,7 +53,7 @@ func (c *runCmd) RegisterFlags(fs *flag.FlagSet) {
 		&c.rootDir,
 		"root-dir",
 		"",
-		"clone location of github.com/gnolang/gno (gno binary tries to guess it)",
+		"clone location of github.com/steve-care-software/gno (gno binary tries to guess it)",
 	)
 
 	fs.StringVar(

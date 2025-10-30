@@ -1,7 +1,7 @@
 # Using `gnoclient`
 
 This guide will show you how to connect to a gno.land network from your Go application,
-using the [gnoclient](https://gnolang.github.io/gno/github.com/gnolang/gno/gno.land/pkg/gnoclient.html)
+using the [gnoclient](https://gnolang.github.io/gno/github.com/steve-care-software/gno/gno.land/pkg/gnoclient.html)
 package.
 
 For this guide, we will build a small Go app that will:
@@ -38,7 +38,7 @@ func main() {}
 Finally, add the `gnoclient` package by running the following command:
 
 ```bash
-go get github.com/gnolang/gno/gno.land/pkg/gnoclient
+go get github.com/steve-care-software/gno/gno.land/pkg/gnoclient
 ```
 
 ## Main components
@@ -76,9 +76,9 @@ For this example, we will initialize the `Signer` from a local keybase:
 package main
 
 import (
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
 )
 
 func main() {
@@ -99,7 +99,7 @@ A few things to note:
 - You can view keys in your local keybase by running `gnokey list`.
 - You can get the password from a user input using the IO package.
 - `Signer` can also be initialized in-memory from a BIP39 mnemonic, using the
-  [`SignerFromBip39`](https://gnolang.github.io/gno/github.com/gnolang/gno@v0.0.0/gno.land/pkg/gnoclient.html#SignerFromBip39)
+  [`SignerFromBip39`](https://gnolang.github.io/gno/github.com/steve-care-software/gno@v0.0.0/gno.land/pkg/gnoclient.html#SignerFromBip39)
   function.
 
 ## Initialize the RPC connection & Client
@@ -122,9 +122,9 @@ With this, we can initialize the `gnoclient.Client` struct:
 package main
 
 import (
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
-	rpcclient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
+	rpcclient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
 )
 
 func main() {
@@ -217,9 +217,9 @@ message type. We will use the wrapped ugnot realm for this example, wrapping
 ```go
 import (
 	...
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 ```
 
@@ -272,7 +272,7 @@ fmt.Println(qevalRes)
 ```
 
 To see all functionality the `gnoclient` package provides, see the gnoclient
-[gnoclient reference](https://gnolang.github.io/gno/github.com/gnolang/gno/gno.land/pkg/gnoclient.html).
+[gnoclient reference](https://gnolang.github.io/gno/github.com/steve-care-software/gno/gno.land/pkg/gnoclient.html).
 
 ## Full code
 
@@ -281,13 +281,13 @@ package main
 
 import (
 	"fmt"
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	rpcclient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	rpcclient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 func main() {

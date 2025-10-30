@@ -1,15 +1,15 @@
 package http
 
-//nolint:revive // See https://github.com/gnolang/gno/issues/1197
+//nolint:revive // See https://github.com/steve-care-software/gno/issues/1197
 import (
 	"context"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	rpcClient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	rpcClient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 
-	_ "github.com/gnolang/gno/gno.land/pkg/sdk/vm"
+	_ "github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
 )
 
 // Client is the TM2 HTTP client

@@ -3,8 +3,8 @@ package gnolang
 import (
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/overflow"
-	"github.com/gnolang/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/overflow"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
 )
 
 // Keeps track of in-memory allocations.

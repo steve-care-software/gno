@@ -12,9 +12,9 @@ import (
 	"github.com/syndtr/goleveldb/leveldb/iterator"
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	"github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/internal"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/internal"
 )
 
 func init() {

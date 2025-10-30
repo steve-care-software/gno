@@ -6,17 +6,17 @@ package stdlibs
 import (
 	"reflect"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	libs_chain "github.com/gnolang/gno/gnovm/stdlibs/chain"
-	libs_chain_banker "github.com/gnolang/gno/gnovm/stdlibs/chain/banker"
-	libs_chain_params "github.com/gnolang/gno/gnovm/stdlibs/chain/params"
-	libs_chain_runtime "github.com/gnolang/gno/gnovm/stdlibs/chain/runtime"
-	libs_crypto_ed25519 "github.com/gnolang/gno/gnovm/stdlibs/crypto/ed25519"
-	libs_crypto_sha256 "github.com/gnolang/gno/gnovm/stdlibs/crypto/sha256"
-	libs_math "github.com/gnolang/gno/gnovm/stdlibs/math"
-	libs_runtime "github.com/gnolang/gno/gnovm/stdlibs/runtime"
-	libs_sys_params "github.com/gnolang/gno/gnovm/stdlibs/sys/params"
-	libs_time "github.com/gnolang/gno/gnovm/stdlibs/time"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	libs_chain "github.com/steve-care-software/gno/gnovm/stdlibs/chain"
+	libs_chain_banker "github.com/steve-care-software/gno/gnovm/stdlibs/chain/banker"
+	libs_chain_params "github.com/steve-care-software/gno/gnovm/stdlibs/chain/params"
+	libs_chain_runtime "github.com/steve-care-software/gno/gnovm/stdlibs/chain/runtime"
+	libs_crypto_ed25519 "github.com/steve-care-software/gno/gnovm/stdlibs/crypto/ed25519"
+	libs_crypto_sha256 "github.com/steve-care-software/gno/gnovm/stdlibs/crypto/sha256"
+	libs_math "github.com/steve-care-software/gno/gnovm/stdlibs/math"
+	libs_runtime "github.com/steve-care-software/gno/gnovm/stdlibs/runtime"
+	libs_sys_params "github.com/steve-care-software/gno/gnovm/stdlibs/sys/params"
+	libs_time "github.com/steve-care-software/gno/gnovm/stdlibs/time"
 )
 
 // NativeFunc represents a function in the standard library which has a native

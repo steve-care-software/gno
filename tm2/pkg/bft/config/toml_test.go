@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/testutils"
+	"github.com/steve-care-software/gno/tm2/pkg/testutils"
 	"github.com/pelletier/go-toml"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

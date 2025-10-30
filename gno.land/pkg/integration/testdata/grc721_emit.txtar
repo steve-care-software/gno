@@ -1,4 +1,4 @@
-# Test for https://github.com/gnolang/gno/pull/3102
+# Test for https://github.com/steve-care-software/gno/pull/3102
 loadpkg gno.land/p/demo/tokens/grc721
 loadpkg gno.land/r/foo721 $WORK/foo721
 

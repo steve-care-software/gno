@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/integration"
+	"github.com/steve-care-software/gno/gno.land/pkg/integration"
 )
 
 func main() {

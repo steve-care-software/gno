@@ -3,7 +3,7 @@ package markdown
 import (
 	"regexp"
 
-	"github.com/gnolang/gno/tm2/pkg/bech32"
+	"github.com/steve-care-software/gno/tm2/pkg/bech32"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/ast"
 	"github.com/yuin/goldmark/parser"

@@ -8,9 +8,9 @@ import (
 	"path"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/packages/pkgdownload"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages/pkgdownload"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type gnoPackageFetcher struct {

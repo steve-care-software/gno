@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
 )
 
 // IteratePrefix is a convenience function for iterating over a key domain

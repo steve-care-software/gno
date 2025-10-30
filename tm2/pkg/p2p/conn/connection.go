@@ -14,12 +14,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/flow"
-	"github.com/gnolang/gno/tm2/pkg/p2p/config"
-	"github.com/gnolang/gno/tm2/pkg/service"
-	"github.com/gnolang/gno/tm2/pkg/timer"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/flow"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/config"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/timer"
 )
 
 const (

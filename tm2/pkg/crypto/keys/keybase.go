@@ -5,16 +5,16 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/bip39"
-	"github.com/gnolang/gno/tm2/pkg/crypto/hd"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/armor"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/keyerror"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ledger"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/bip39"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/hd"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/armor"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/keyerror"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ledger"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 var (

@@ -61,7 +61,7 @@ Marks the package as private and **unimportable** by any other package. Addition
 
 #### `ignore` 
 
-Coming soon - follow progress [here](https://github.com/gnolang/gno/pull/4413).
+Coming soon - follow progress [here](https://github.com/steve-care-software/gno/pull/4413).
 
 ### Example
 

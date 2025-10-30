@@ -784,7 +784,7 @@ your coins the flexibility of GRC20 while keeping the security of Coins.
 It's a bit more complex, but it's a powerful option that offers great
 versatility.
 
-See also: https://github.com/gnolang/gno/tree/master/examples/gno.land/r/gnoland/wugnot
+See also: https://github.com/steve-care-software/gno/tree/master/examples/gno.land/r/gnoland/wugnot
 
 <!-- TODO:
 

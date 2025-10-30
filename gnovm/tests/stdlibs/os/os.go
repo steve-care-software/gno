@@ -3,8 +3,8 @@ package os
 import (
 	"time"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/tests/stdlibs/chain/runtime"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/tests/stdlibs/chain/runtime"
 )
 
 func X_write(m *gnolang.Machine, p []byte, isStderr bool) int {

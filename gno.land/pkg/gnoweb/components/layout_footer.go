@@ -32,7 +32,7 @@ func EnrichFooterData(data FooterData) FooterData {
 		{
 			Title: "Social media",
 			Links: []FooterLink{
-				{Label: "GitHub", URL: "https://github.com/gnolang/gno"},
+				{Label: "GitHub", URL: "https://github.com/steve-care-software/gno"},
 				{Label: "Twitter", URL: "https://twitter.com/_gnoland"},
 				{Label: "Discord", URL: "https://discord.gg/S8nKUqwkPn"},
 				{Label: "YouTube", URL: "https://www.youtube.com/@_gnoland"},
@@ -41,8 +41,8 @@ func EnrichFooterData(data FooterData) FooterData {
 		{
 			Title: "Legal",
 			Links: []FooterLink{
-				{Label: "Terms", URL: "https://github.com/gnolang/gno/blob/master/LICENSE.md"},
-				{Label: "Privacy", URL: "https://github.com/gnolang/gno/blob/master/LICENSE.md"},
+				{Label: "Terms", URL: "https://github.com/steve-care-software/gno/blob/master/LICENSE.md"},
+				{Label: "Privacy", URL: "https://github.com/steve-care-software/gno/blob/master/LICENSE.md"},
 			},
 		},
 	}

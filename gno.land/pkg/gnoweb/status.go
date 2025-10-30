@@ -9,9 +9,9 @@ import (
 	"runtime"
 	"time"
 
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 // XXX: rework this part, this is the original method from previous gnoweb

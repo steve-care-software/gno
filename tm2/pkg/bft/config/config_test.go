@@ -9,7 +9,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	_ "github.com/gnolang/gno/tm2/pkg/db/pebbledb"
+	_ "github.com/steve-care-software/gno/tm2/pkg/db/pebbledb"
 )
 
 func TestConfig_LoadOrMakeConfigWithOptions(t *testing.T) {

@@ -1,8 +1,8 @@
 package discovery
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 var errNoPeers = errors.New("no peers received")

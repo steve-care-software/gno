@@ -63,7 +63,7 @@ fmt:
 
 .PHONY: tidy
 tidy:
-	go run github.com/gnolang/gno/gnovm/cmd/gno mod tidy -v --recursive
+	go run github.com/steve-care-software/gno/gnovm/cmd/gno mod tidy -v --recursive
 
 .PHONY: generate
 generate:

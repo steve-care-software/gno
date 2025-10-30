@@ -1,10 +1,10 @@
 package config
 
 import (
-	"github.com/gnolang/gno/contribs/github-bot/internal/client"
-	c "github.com/gnolang/gno/contribs/github-bot/internal/conditions"
-	r "github.com/gnolang/gno/contribs/github-bot/internal/requirements"
-	"github.com/gnolang/gno/contribs/github-bot/internal/utils"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/client"
+	c "github.com/steve-care-software/gno/contribs/github-bot/internal/conditions"
+	r "github.com/steve-care-software/gno/contribs/github-bot/internal/requirements"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/utils"
 )
 
 type Teams []string

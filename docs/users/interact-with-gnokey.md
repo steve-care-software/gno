@@ -14,7 +14,7 @@ To build and install from source, you'll need:
 
 ```bash
 # Clone the repository
-git clone https://github.com/gnolang/gno.git
+git clone https://github.com/steve-care-software/gno.git
 cd gno
 
 # Install gnokey
@@ -89,7 +89,7 @@ A Gno.land transaction contains two main things:
 
 Currently, `gnokey` supports single-message transactions, while multiple-message
 transactions can be created in Go programs, supported by the
-[gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
+[gnoclient](https://github.com/steve-care-software/gno/tree/master/gno.land/pkg/gnoclient) package.
 
 We will need some testnet coins (GNOTs) for each state-changing call. Visit the [Faucet
 Hub](https://faucet.gno.land) to get GNOTs for the Gno testnets that are currently live.

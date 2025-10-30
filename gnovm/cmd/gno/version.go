@@ -3,8 +3,8 @@ package main
 import (
 	"context"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/version"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/version"
 )
 
 // newVersionCmd creates a new version command

@@ -24,7 +24,7 @@ build:
 	gunzip overlay/balances.txt.gz
 
 ./overlay/genesis_txs.jsonl:
-	wget https://github.com/gnolang/gno/raw/master/gnoland/genesis/genesis_txs.jsonl -O $@
+	wget https://github.com/steve-care-software/gno/raw/master/gnoland/genesis/genesis_txs.jsonl -O $@
 
 gnotxport:
 	#docker build -t gno ../..

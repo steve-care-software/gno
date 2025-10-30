@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/components"
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/weburl"
-	"github.com/gnolang/gno/gnovm/pkg/doc"
-	"github.com/gnolang/gno/tm2/pkg/bech32"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/components"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/weburl"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/tm2/pkg/bech32"
 )
 
 const ReadmeFileName = "README.md"

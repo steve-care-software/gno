@@ -1,5 +1,5 @@
 # Test that two packages have independent states.
-# https://github.com/gnolang/gno/issues/3240
+# https://github.com/steve-care-software/gno/issues/3240
 
 # Set up GNOROOT in the current directory.
 mkdir $WORK/gnovm/tests

@@ -1,6 +1,6 @@
 package restore
 
-import "github.com/gnolang/gno/contribs/tx-archive/log"
+import "github.com/steve-care-software/gno/contribs/tx-archive/log"
 
 type Option func(s *Service)
 

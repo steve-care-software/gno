@@ -4,10 +4,10 @@ import (
 	"bufio"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	storetypes "github.com/gnolang/gno/tm2/pkg/bft/state/eventstore/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/testutils"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	storetypes "github.com/steve-care-software/gno/tm2/pkg/bft/state/eventstore/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 )
 

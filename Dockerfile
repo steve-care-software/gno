@@ -49,7 +49,7 @@ RUN         --mount=type=cache,target=/go/pkg/mod/,id=gnodev-modcache \
 RUN         --mount=type=cache,target=/go/pkg/mod/,id=gnodev-modcache \
             --mount=type=cache,target=/root/.cache/go-build,id=gnodev-buildcache \
             go build \
-            -ldflags "-X github.com/gnolang/gno/gnovm/pkg/gnoenv._GNOROOT=/gnoroot" \
+            -ldflags "-X github.com/steve-care-software/gno/gnovm/pkg/gnoenv._GNOROOT=/gnoroot" \
             -o /gnoroot/build/gnodev .
 
 # Gnobro build
@@ -58,7 +58,7 @@ WORKDIR     /gnoroot/contribs/gnobro
 RUN         --mount=type=cache,target=/go/pkg/mod/,id=gnobro-modcache \
             --mount=type=cache,target=/root/.cache/go-build,id=gnobro-buildcache \
             go build \
-            -ldflags "-X github.com/gnolang/gno/gnovm/pkg/gnoenv._GNOROOT=/gnoroot" \
+            -ldflags "-X github.com/steve-care-software/gno/gnovm/pkg/gnoenv._GNOROOT=/gnoroot" \
             -o /gnoroot/build/gnobro .
 
 # Gnocontribs

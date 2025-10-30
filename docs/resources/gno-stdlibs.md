@@ -66,7 +66,7 @@ func (littleEndian) AppendUint16(b []byte, v uint16) []byte {
 ```
 
 `gno doc` will work automatically when used within the Gno repository or any
-repository which has a `go.mod` dependency on `github.com/gnolang/gno`.
+repository which has a `go.mod` dependency on `github.com/steve-care-software/gno`.
 
 Another alternative is setting your environment variable `GNOROOT` to point to
 where you cloned the Gno repository.

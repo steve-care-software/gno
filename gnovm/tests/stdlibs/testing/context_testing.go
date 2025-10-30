@@ -1,10 +1,10 @@
 package testing
 
 import (
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/stdlibs/chain/banker"
-	"github.com/gnolang/gno/gnovm/tests/stdlibs/chain/runtime"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/chain/banker"
+	"github.com/steve-care-software/gno/gnovm/tests/stdlibs/chain/runtime"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 func X_getContext(m *gno.Machine) (

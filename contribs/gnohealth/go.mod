@@ -2,9 +2,9 @@ module github.com/steve-care-software/gno/contribs/gnohealth
 
 go 1.23.6
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
-require github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+require github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 
 require (
 	github.com/DataDog/zstd v1.5.7 // indirect

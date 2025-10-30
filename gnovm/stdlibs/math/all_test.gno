@@ -899,7 +899,7 @@ var vfatan2SC = [][2]float64{
 }
 
 var atan2SC = []float64{
-	// https://github.com/gnolang/gno/issues/1152
+	// https://github.com/steve-care-software/gno/issues/1152
 	-3.0 * math.Pi / 4,   // atan2(-Inf, -Inf)
 	-math.Pi / 2,         // atan2(-Inf, -math.Pi)
 	-math.Pi / 2,         // atan2(-Inf, +0)
@@ -1779,7 +1779,7 @@ var vfpowSC = [][2]float64{
 	{-2, float64(1<<32 + 1)},
 	{0.5, float64(1 << 45)},
 	{0.5, -float64(1 << 45)},
-	// https://github.com/gnolang/gno/issues/1085
+	// https://github.com/steve-care-software/gno/issues/1085
 	{math.Nextafter(1, 2), float1Shift63},
 	{math.Nextafter(1, -2), float1Shift63},
 	{math.Nextafter(-1, 2), float1Shift63},
@@ -3318,7 +3318,7 @@ func TestTrigReduce(t *testing.T) {
 		inputs = append(inputs, v+large)
 	}
 	// Also test some special inputs, math.Pi and right below the reduceThreshold
-	// XXX: https://github.com/gnolang/gno/issues/1149
+	// XXX: https://github.com/steve-care-software/gno/issues/1149
 	inputs = append(inputs, float64(math.Pi), math.Nextafter(math.ReduceThreshold, 0))
 	for _, x := range inputs {
 		// reduce the value to compare

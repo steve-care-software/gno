@@ -18,9 +18,9 @@ import (
 	zone "github.com/lrstanley/bubblezone"
 	"github.com/muesli/reflow/wordwrap"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 )
 
 var promptStyle = func(r *lipgloss.Renderer) lipgloss.Style {

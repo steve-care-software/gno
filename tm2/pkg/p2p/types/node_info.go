@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/gnolang/gno/tm2/pkg/strings"
-	"github.com/gnolang/gno/tm2/pkg/versionset"
+	"github.com/steve-care-software/gno/tm2/pkg/strings"
+	"github.com/steve-care-software/gno/tm2/pkg/versionset"
 )
 
 const (

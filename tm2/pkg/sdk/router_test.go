@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
 )
 
 type nopTestHandler struct{}

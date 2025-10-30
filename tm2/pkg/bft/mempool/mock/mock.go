@@ -1,10 +1,10 @@
 package mock
 
 import (
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	mempl "github.com/gnolang/gno/tm2/pkg/bft/mempool"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/clist"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	mempl "github.com/steve-care-software/gno/tm2/pkg/bft/mempool"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/clist"
 )
 
 // Mempool is an empty implementation of a Mempool, useful for testing.

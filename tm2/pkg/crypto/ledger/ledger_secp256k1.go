@@ -9,12 +9,12 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2/ecdsa"
 	secp "github.com/decred/dcrd/dcrec/secp256k1/v4"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/hd"
-	"github.com/gnolang/gno/tm2/pkg/crypto/internal/ledger"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/hd"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/internal/ledger"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 type (

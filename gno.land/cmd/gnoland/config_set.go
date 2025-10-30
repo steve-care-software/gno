@@ -9,10 +9,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	"github.com/gnolang/gno/tm2/pkg/bft/state/eventstore/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	storeTypes "github.com/gnolang/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/state/eventstore/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	storeTypes "github.com/steve-care-software/gno/tm2/pkg/store/types"
 )
 
 var errInvalidConfigSetArgs = errors.New("invalid number of config set arguments provided")

@@ -6,7 +6,7 @@ import (
 	"github.com/alecthomas/chroma/v2"
 	chromahtml "github.com/alecthomas/chroma/v2/formatters/html"
 	"github.com/alecthomas/chroma/v2/styles"
-	md "github.com/gnolang/gno/gno.land/pkg/gnoweb/markdown"
+	md "github.com/steve-care-software/gno/gno.land/pkg/gnoweb/markdown"
 	"github.com/yuin/goldmark"
 	"github.com/yuin/goldmark/extension"
 	"github.com/yuin/goldmark/parser"

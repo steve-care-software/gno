@@ -4,10 +4,10 @@ import (
 	"context"
 	"os"
 
-	"github.com/gnolang/gno/gno.land/pkg/keyscli"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/client"
+	"github.com/steve-care-software/gno/gno.land/pkg/keyscli"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/client"
 )
 
 func main() {

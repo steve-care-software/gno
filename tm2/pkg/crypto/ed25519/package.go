@@ -1,11 +1,11 @@
 package ed25519
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519",
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519",
 	"tm",
 	amino.GetCallersDirname(),
 ).WithDependencies().WithTypes(

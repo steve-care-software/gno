@@ -16,14 +16,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	tmcfg "github.com/gnolang/gno/tm2/pkg/bft/config"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	"github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/goleveldb"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	tmcfg "github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/goleveldb"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
 	"github.com/stretchr/testify/require"
 )
 

@@ -1,4 +1,4 @@
-// https://github.com/gnolang/gno/issues/3727
+// https://github.com/steve-care-software/gno/issues/3727
 
 package main
 

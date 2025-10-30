@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/abci/example/kvstore"
-	"github.com/gnolang/gno/tm2/pkg/bft/proxy"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/abci/example/kvstore"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/proxy"
 )
 
 func BenchmarkReap(b *testing.B) {

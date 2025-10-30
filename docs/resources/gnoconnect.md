@@ -62,14 +62,14 @@ Links can be relative or absolute but must match one of the domains listed in
 
 TxLinks only prefill specified arguments. For non-specified arguments, clients
 can call `vm/qdoc` to retrieve the remaining fields
-(see [PR #3459](https://github.com/gnolang/gno/pull/3459)).
+(see [PR #3459](https://github.com/steve-care-software/gno/pull/3459)).
 
 > **Note:** A future standard may define advanced rules for fields such as
 > limits, format, and default values.
 
 ### Run Calls
 
-TODO ([discussion](https://github.com/gnolang/gno/issues/3283)).
+TODO ([discussion](https://github.com/steve-care-software/gno/issues/3283)).
 
 ## Supported Clients
 
@@ -80,8 +80,8 @@ TODO ([discussion](https://github.com/gnolang/gno/issues/3283)).
 
 ## Further Reading
 
-- [Issue #2602](https://github.com/gnolang/gno/issues/2602)
-- [Issue #3283](https://github.com/gnolang/gno/issues/3283)
-- [PR #3609](https://github.com/gnolang/gno/pull/3609)
-- [PR #3459](https://github.com/gnolang/gno/pull/3459)
+- [Issue #2602](https://github.com/steve-care-software/gno/issues/2602)
+- [Issue #3283](https://github.com/steve-care-software/gno/issues/3283)
+- [PR #3609](https://github.com/steve-care-software/gno/pull/3609)
+- [PR #3459](https://github.com/steve-care-software/gno/pull/3459)
 

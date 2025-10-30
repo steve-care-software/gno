@@ -8,12 +8,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	cfg "github.com/gnolang/gno/tm2/pkg/bft/mempool/config"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/clist"
-	"github.com/gnolang/gno/tm2/pkg/p2p"
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	cfg "github.com/steve-care-software/gno/tm2/pkg/bft/mempool/config"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/clist"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 const (

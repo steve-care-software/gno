@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
 )
 
 // Tries to reproduce the bug #1036 on all registered types

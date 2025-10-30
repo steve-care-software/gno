@@ -24,14 +24,14 @@ import (
 	"github.com/charmbracelet/wish/bubbletea"
 	"golang.org/x/sync/errgroup"
 
-	"github.com/gnolang/gno/contribs/gnobro/pkg/browser"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/events"
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	"github.com/gnolang/gno/gno.land/pkg/integration"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/contribs/gnobro/pkg/browser"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	"github.com/steve-care-software/gno/gno.land/pkg/integration"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
 )
 
 const gnoPrefix = "gno.land"

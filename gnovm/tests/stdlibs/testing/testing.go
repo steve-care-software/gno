@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"time"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 )
 
 func X_unixNano() int64 {

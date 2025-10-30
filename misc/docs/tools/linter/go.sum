@@ -1,7 +1,7 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/gnolang/gno v0.0.0-20240516161351-0c9849a8ef0c h1:jtZ+oN8ZpBM0wYbcFH0B7NjFFzTFqZZmZellSSKtaCE=
-github.com/gnolang/gno v0.0.0-20240516161351-0c9849a8ef0c/go.mod h1:YcZbtNIfXVn4jS1pSG8SeG5RVHjyI7FPS3GypZaXxCI=
+github.com/steve-care-software/gno v0.0.0-20240516161351-0c9849a8ef0c h1:jtZ+oN8ZpBM0wYbcFH0B7NjFFzTFqZZmZellSSKtaCE=
+github.com/steve-care-software/gno v0.0.0-20240516161351-0c9849a8ef0c/go.mod h1:YcZbtNIfXVn4jS1pSG8SeG5RVHjyI7FPS3GypZaXxCI=
 github.com/peterbourgon/ff/v3 v3.4.0 h1:QBvM/rizZM1cB0p0lGMdmR7HxZeI/ZrBWB4DqLkMUBc=
 github.com/peterbourgon/ff/v3 v3.4.0/go.mod h1:zjJVUhx+twciwfDl0zBcFzl4dW8axCRyXE/eKY9RztQ=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

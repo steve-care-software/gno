@@ -9,13 +9,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
 )
 
 // Key to store the consensus params in the main store.

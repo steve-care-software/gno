@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
 	"github.com/stretchr/testify/require"
 )
 

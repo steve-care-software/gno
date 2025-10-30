@@ -12,10 +12,10 @@ import (
 	"io"
 	"math"
 
-	"github.com/gnolang/gno/tm2/pkg/iavl/cache"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl/cache"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	"github.com/gnolang/gno/tm2/pkg/iavl/internal/encoding"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl/internal/encoding"
 )
 
 const (

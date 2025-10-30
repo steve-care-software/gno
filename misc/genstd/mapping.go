@@ -7,12 +7,12 @@ import (
 	"path"
 )
 
-const gnoPackagePath = "github.com/gnolang/gno/gnovm/pkg/gnolang"
+const gnoPackagePath = "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 
 type mapping struct {
 	GnoImportPath string // time
 	GnoFunc       string // now
-	GoImportPath  string // github.com/gnolang/gno/gnovm/stdlibs/time
+	GoImportPath  string // github.com/steve-care-software/gno/gnovm/stdlibs/time
 	GoFunc        string // X_now
 	Params        []mappingType
 	Results       []mappingType
@@ -61,7 +61,7 @@ func linkFunctions(pkgs []*pkgData) []mapping {
 			mp := mapping{
 				GnoImportPath: pkg.importPath,
 				GnoFunc:       gb.Name.Name,
-				GoImportPath:  "github.com/gnolang/gno/" + relPath() + "/" + pkg.importPath,
+				GoImportPath:  "github.com/steve-care-software/gno/" + relPath() + "/" + pkg.importPath,
 				GoFunc:        fn.Name.Name,
 
 				gnoImports: gb.imports,

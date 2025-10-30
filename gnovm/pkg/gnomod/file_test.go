@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/testutils"
+	"github.com/steve-care-software/gno/tm2/pkg/testutils"
 )
 
 func TestFile_GetGno(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gnolang/gno/gnovm/pkg/doc"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type docCfg struct {
@@ -71,7 +71,7 @@ func (c *docCfg) RegisterFlags(fs *flag.FlagSet) {
 		&c.rootDir,
 		"root-dir",
 		"",
-		"clone location of github.com/gnolang/gno (gno binary tries to guess it)",
+		"clone location of github.com/steve-care-software/gno (gno binary tries to guess it)",
 	)
 }
 

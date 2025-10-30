@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	signer "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	signer "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -10,14 +10,14 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	cfg "github.com/gnolang/gno/tm2/pkg/bft/config"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	_ "github.com/gnolang/gno/tm2/pkg/db/_all"
-	"github.com/gnolang/gno/tm2/pkg/random"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	cfg "github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	_ "github.com/steve-care-software/gno/tm2/pkg/db/_all"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 // setupTestCase does setup common to all test cases.

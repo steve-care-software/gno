@@ -3,7 +3,7 @@ package components
 import (
 	"net/url"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/weburl"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/weburl"
 )
 
 type HeaderLink struct {

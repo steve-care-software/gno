@@ -1,12 +1,12 @@
 package blockchain
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	btypes "github.com/gnolang/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	btypes "github.com/steve-care-software/gno/tm2/pkg/bft/types"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/tm2/pkg/bft/blockchain",
+	"github.com/steve-care-software/gno/tm2/pkg/bft/blockchain",
 	"tm",
 	amino.GetCallersDirname(),
 ).WithDependencies(

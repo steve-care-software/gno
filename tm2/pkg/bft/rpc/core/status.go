@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"time"
 
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	rpctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	rpctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
 )
 
 // Get Tendermint status including node info, pubkey, latest block

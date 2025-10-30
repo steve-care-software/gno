@@ -1,6 +1,6 @@
 Welcome to **test3.gno.land**.
 
- * [Install `gnokey`](https://github.com/gnolang/gno/)
+ * [Install `gnokey`](https://github.com/steve-care-software/gno/)
  * [Acquire testnet tokens](/faucet)
 
 Explore new packages.

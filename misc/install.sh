@@ -82,7 +82,7 @@ install_gno() {
         git reset --hard origin/master
     else
         log "Cloning gno repository..."
-        git clone --depth 1 https://github.com/gnolang/gno.git "$GNO_DIR"
+        git clone --depth 1 https://github.com/steve-care-software/gno.git "$GNO_DIR"
         cd "$GNO_DIR"
     fi
 

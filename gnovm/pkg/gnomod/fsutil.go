@@ -4,7 +4,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
 )
 
 // ModCachePath returns the path for gno modules

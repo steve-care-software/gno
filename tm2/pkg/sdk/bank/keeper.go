@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/sdk"
-	"github.com/gnolang/gno/tm2/pkg/sdk/auth"
-	"github.com/gnolang/gno/tm2/pkg/sdk/params"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/auth"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/params"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 // bank.Keeper defines a module interface that facilitates the transfer of

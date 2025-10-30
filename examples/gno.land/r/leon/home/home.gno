@@ -58,7 +58,7 @@ Hi, I'm Leon, a DevRel Engineer at gno.land. I am a tech enthusiast,
 life-long learner, and sharer of knowledge.`,
 		`### Contributions
 My contributions to Gno.land can mainly be found 
-[on GitHub](https://github.com/gnolang/gno/issues?q=sort:updated-desc+author:leohhhn), and on [the chain](/u/leon).
+[on GitHub](https://github.com/steve-care-software/gno/issues?q=sort:updated-desc+author:leohhhn), and on [the chain](/u/leon).
 
 TODO import r/gh`,
 	}

@@ -186,7 +186,7 @@ func (coins Coins) IsZero() bool {
 }
 
 func CoinDenom(pkgPath, coinName string) string {
-	// TODO: Possibly remove after https://github.com/gnolang/gno/issues/3164
+	// TODO: Possibly remove after https://github.com/steve-care-software/gno/issues/3164
 	// Similar to ibc spec
 	// ibc_denom := 'ibc/' + hash('path' + 'base_denom')
 	// gno_qualified_denom := '/' + 'pkg_path' + ':' + 'base_denom'

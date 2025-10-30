@@ -7,7 +7,7 @@ package mockdb
 import (
 	reflect "reflect"
 
-	db "github.com/gnolang/gno/tm2/pkg/db"
+	db "github.com/steve-care-software/gno/tm2/pkg/db"
 	gomock "github.com/golang/mock/gomock"
 )
 

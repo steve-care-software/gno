@@ -8,9 +8,9 @@ import (
 	"log/slog"
 	"sync"
 
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/log"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 	"github.com/gorilla/websocket"
 )
 

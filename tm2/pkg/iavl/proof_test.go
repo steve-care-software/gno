@@ -8,7 +8,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	iavlrand "github.com/gnolang/gno/tm2/pkg/random"
+	iavlrand "github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 func TestTreeGetProof(t *testing.T) {

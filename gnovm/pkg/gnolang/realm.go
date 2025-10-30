@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"sync"
 
-	bm "github.com/gnolang/gno/gnovm/pkg/benchops"
+	bm "github.com/steve-care-software/gno/gnovm/pkg/benchops"
 )
 
 /*
@@ -82,7 +82,7 @@ var (
 	pkgIDFromPkgPathCacheMu sync.Mutex // protects the shared cache.
 	// TODO: later on switch this to an LRU if needed to ensure
 	// fixed memory caps. For now though it isn't a problem:
-	// https://github.com/gnolang/gno/pull/3424#issuecomment-2564571785
+	// https://github.com/steve-care-software/gno/pull/3424#issuecomment-2564571785
 	pkgIDFromPkgPathCache = make(map[string]*PkgID, 100)
 )
 

@@ -8,11 +8,11 @@ import (
 	"os"
 	"path/filepath"
 
-	signer "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	signer "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 var errOverwriteNotEnabled = errors.New("overwrite not enabled")

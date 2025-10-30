@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/random"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 /* AutoFile usage

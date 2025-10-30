@@ -5,13 +5,13 @@ go 1.23.6
 require (
 	github.com/docker/docker v25.0.6+incompatible
 	github.com/docker/go-connections v0.4.0
-	github.com/gnolang/gno v0.1.0-nightly.20240627
-	github.com/gnolang/gno/contribs/tx-archive v0.5.0
+	github.com/steve-care-software/gno v0.1.0-nightly.20240627
+	github.com/steve-care-software/gno/contribs/tx-archive v0.5.0
 )
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
-replace github.com/gnolang/gno/contribs/tx-archive => ../../contribs/tx-archive
+replace github.com/steve-care-software/gno/contribs/tx-archive => ../../contribs/tx-archive
 
 require (
 	dario.cat/mergo v1.0.2 // indirect

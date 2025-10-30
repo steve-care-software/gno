@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/gnolang/faucet"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type captchaCfg struct {

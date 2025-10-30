@@ -1,10 +1,10 @@
 package stdlibs
 
-//go:generate go run github.com/gnolang/gno/misc/genstd
+//go:generate go run github.com/steve-care-software/gno/misc/genstd
 
 import (
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/stdlibs/internal/execctx"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/internal/execctx"
 )
 
 // These types are aliases to the equivalent types in internal/execctx.

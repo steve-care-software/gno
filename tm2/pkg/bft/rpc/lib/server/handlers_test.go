@@ -12,9 +12,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	rs "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/server"
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	"github.com/gnolang/gno/tm2/pkg/log"
+	rs "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/server"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 )
 
 // -----------
@@ -39,7 +39,7 @@ func statusOK(code int) bool { return code >= 200 && code <= 299 }
 
 // Ensure that nefarious/unintended inputs to `params`
 // do not crash our RPC handlers.
-// See Issue https://github.com/gnolang/gno/tm2/pkg/bft/issues/708.
+// See Issue https://github.com/steve-care-software/gno/tm2/pkg/bft/issues/708.
 func TestRPCParams(t *testing.T) {
 	t.Parallel()
 

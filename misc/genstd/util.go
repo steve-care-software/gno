@@ -90,11 +90,11 @@ func findDirs() (gitRoot string, relPath string, err error) {
 // unambiguously for the most part (so safe for the code generation).
 //
 // The path is taken and possibly shortened if it starts with a known prefix.
-// For instance, github.com/gnolang/gno/stdlibs/std simply becomes "libs_std".
+// For instance, github.com/steve-care-software/gno/stdlibs/std simply becomes "libs_std".
 // "Unsafe" characters are removed (ie. invalid for go identifiers).
 func pkgNameFromPath(path string) string {
 	const (
-		repoPrefix     = "github.com/gnolang/gno/"
+		repoPrefix     = "github.com/steve-care-software/gno/"
 		vmPrefix       = repoPrefix + "gnovm/"
 		tm2Prefix      = repoPrefix + "tm2/pkg/"
 		libsPrefix     = vmPrefix + "stdlibs/"

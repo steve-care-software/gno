@@ -5,9 +5,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/gnolang/gno/contribs/gnokms/internal/common"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/contribs/gnokms/internal/common"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 type authGenerateFlags struct {

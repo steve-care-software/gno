@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/weburl"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/weburl"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -6,10 +6,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	abciver "github.com/gnolang/gno/tm2/pkg/bft/abci/version"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	abciver "github.com/steve-care-software/gno/tm2/pkg/bft/abci/version"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
 )
 
 var (

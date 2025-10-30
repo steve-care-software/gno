@@ -1,4 +1,4 @@
-# Test for https://github.com/gnolang/gno/pull/1112
+# Test for https://github.com/steve-care-software/gno/pull/1112
 loadpkg gno.land/r/demo/mapindex $WORK
 
 gnoland start

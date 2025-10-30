@@ -4,12 +4,12 @@ package keyscli
 import (
 	"encoding/base64"
 
-	"github.com/gnolang/gno/gnovm/stdlibs/chain"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/client"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/chain"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/client"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 
 	"github.com/peterbourgon/ff/v3"
 	"github.com/peterbourgon/ff/v3/fftoml"

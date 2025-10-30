@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/packages/pkgdownload/examplespkgfetcher"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages/pkgdownload/examplespkgfetcher"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 	"github.com/stretchr/testify/require"
 )
 

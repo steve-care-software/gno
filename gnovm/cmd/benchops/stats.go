@@ -9,8 +9,8 @@ import (
 	"strings"
 	"sync"
 
-	bm "github.com/gnolang/gno/gnovm/pkg/benchops"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
+	bm "github.com/steve-care-software/gno/gnovm/pkg/benchops"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 )
 
 type codeStats struct {

@@ -14,36 +14,36 @@ import (
 
 	"github.com/rs/cors"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/appconn"
-	"github.com/gnolang/gno/tm2/pkg/bft/privval"
-	"github.com/gnolang/gno/tm2/pkg/bft/state/eventstore/file"
-	"github.com/gnolang/gno/tm2/pkg/p2p/conn"
-	"github.com/gnolang/gno/tm2/pkg/p2p/discovery"
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/appconn"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/privval"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/state/eventstore/file"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/conn"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/discovery"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	bc "github.com/gnolang/gno/tm2/pkg/bft/blockchain"
-	cfg "github.com/gnolang/gno/tm2/pkg/bft/config"
-	cs "github.com/gnolang/gno/tm2/pkg/bft/consensus"
-	mempl "github.com/gnolang/gno/tm2/pkg/bft/mempool"
-	"github.com/gnolang/gno/tm2/pkg/bft/proxy"
-	rpccore "github.com/gnolang/gno/tm2/pkg/bft/rpc/core"
-	_ "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	rpcserver "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/server"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/state/eventstore"
-	"github.com/gnolang/gno/tm2/pkg/bft/state/eventstore/null"
-	"github.com/gnolang/gno/tm2/pkg/bft/store"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	tmtime "github.com/gnolang/gno/tm2/pkg/bft/types/time"
-	"github.com/gnolang/gno/tm2/pkg/bft/version"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/events"
-	"github.com/gnolang/gno/tm2/pkg/p2p"
-	"github.com/gnolang/gno/tm2/pkg/service"
-	verset "github.com/gnolang/gno/tm2/pkg/versionset"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	bc "github.com/steve-care-software/gno/tm2/pkg/bft/blockchain"
+	cfg "github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	cs "github.com/steve-care-software/gno/tm2/pkg/bft/consensus"
+	mempl "github.com/steve-care-software/gno/tm2/pkg/bft/mempool"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/proxy"
+	rpccore "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core"
+	_ "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	rpcserver "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/server"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/state/eventstore"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/state/eventstore/null"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/store"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	tmtime "github.com/steve-care-software/gno/tm2/pkg/bft/types/time"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/version"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
+	verset "github.com/steve-care-software/gno/tm2/pkg/versionset"
 )
 
 // Reactors are hooks for the p2p module,
@@ -705,7 +705,7 @@ func (n *Node) startRPC() (listeners []net.Listener, err error) {
 	defer func() {
 		if err != nil {
 			// Close all the created listeners on any error, instead of
-			// leaking them: https://github.com/gnolang/gno/issues/3639
+			// leaking them: https://github.com/steve-care-software/gno/issues/3639
 			for _, ln := range listeners {
 				ln.Close()
 			}
@@ -720,7 +720,7 @@ func (n *Node) startRPC() (listeners []net.Listener, err error) {
 	config.MaxOpenConnections = n.config.RPC.MaxOpenConnections
 	// If necessary adjust global WriteTimeout to ensure it's greater than
 	// TimeoutBroadcastTxCommit.
-	// See https://github.com/gnolang/gno/tm2/pkg/bft/issues/3435
+	// See https://github.com/steve-care-software/gno/tm2/pkg/bft/issues/3435
 	if config.WriteTimeout <= n.config.RPC.TimeoutBroadcastTxCommit {
 		config.WriteTimeout = n.config.RPC.TimeoutBroadcastTxCommit + 1*time.Second
 	}

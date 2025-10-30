@@ -12,7 +12,7 @@ blockchain.
 ### Clone the repository
 
 ```shell
-git clone https://github.com/gnolang/gno.git
+git clone https://github.com/steve-care-software/gno.git
 ```
 
 ### Navigate to the project directory

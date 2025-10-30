@@ -9,22 +9,22 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/gno.land/pkg/log"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	"github.com/gnolang/gno/tm2/pkg/bft/node"
-	signer "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/events"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/node"
+	signer "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/telemetry"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry"
 	"go.uber.org/zap/zapcore"
 )
 
@@ -44,12 +44,12 @@ var startGraphic = strings.ReplaceAll(`
 var genesisDeployFee = std.NewFee(50000, std.MustParseCoin(ugnot.ValueString(1)))
 
 type startCfg struct {
-	gnoRootDir                 string // TODO: remove as part of https://github.com/gnolang/gno/issues/1952
-	skipFailingGenesisTxs      bool   // TODO: remove as part of https://github.com/gnolang/gno/issues/1952
-	skipGenesisSigVerification bool   // TODO: remove as part of https://github.com/gnolang/gno/issues/1952
-	genesisBalancesFile        string // TODO: remove as part of https://github.com/gnolang/gno/issues/1952
-	genesisTxsFile             string // TODO: remove as part of https://github.com/gnolang/gno/issues/1952
-	genesisRemote              string // TODO: remove as part of https://github.com/gnolang/gno/issues/1952
+	gnoRootDir                 string // TODO: remove as part of https://github.com/steve-care-software/gno/issues/1952
+	skipFailingGenesisTxs      bool   // TODO: remove as part of https://github.com/steve-care-software/gno/issues/1952
+	skipGenesisSigVerification bool   // TODO: remove as part of https://github.com/steve-care-software/gno/issues/1952
+	genesisBalancesFile        string // TODO: remove as part of https://github.com/steve-care-software/gno/issues/1952
+	genesisTxsFile             string // TODO: remove as part of https://github.com/steve-care-software/gno/issues/1952
+	genesisRemote              string // TODO: remove as part of https://github.com/steve-care-software/gno/issues/1952
 	genesisFile                string
 	chainID                    string
 	dataDir                    string

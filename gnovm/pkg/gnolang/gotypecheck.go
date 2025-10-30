@@ -10,7 +10,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"go.uber.org/multierr"
 	"golang.org/x/tools/go/ast/astutil"
 )

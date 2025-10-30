@@ -109,7 +109,7 @@ dev.all: $(esbuild) $(PUBLIC_DIR)
 # Go server in development mode
 dev.gnoweb: generate
 	$(reflex) -s -r '.*\.(go|html)' -- \
-		go run -tags=noembed -ldflags="-X 'github.com/gnolang/gno/gno.land/pkg/gnoweb.AssetDir=${PUBLIC_DIR}'" ../../cmd/gnoweb \
+		go run -tags=noembed -ldflags="-X 'github.com/steve-care-software/gno/gno.land/pkg/gnoweb.AssetDir=${PUBLIC_DIR}'" ../../cmd/gnoweb \
 		-v -no-strict -chainid=${CHAIN_ID} -remote=${DEV_REMOTE} \
 		2>&1 | $(logname) gnoweb
 

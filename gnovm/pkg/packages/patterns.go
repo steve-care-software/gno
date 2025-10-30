@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 )
 
 type pkgMatch struct {

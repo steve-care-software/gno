@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/gnolang/contribs/gnogenesis/internal/common"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type generateCfg struct {

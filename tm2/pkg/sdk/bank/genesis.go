@@ -1,7 +1,7 @@
 package bank
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
 )
 
 // GenesisState - all state that must be provided at genesis

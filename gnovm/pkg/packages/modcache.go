@@ -6,9 +6,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
-	"github.com/gnolang/gno/gnovm/pkg/packages/pkgdownload"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages/pkgdownload"
 	"github.com/gofrs/flock"
 )
 

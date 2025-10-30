@@ -4,7 +4,7 @@
 
 ### BREAKING CHANGES
 
-- [#4656](https://github.com/gnolang/gno/pull/4656) Replace all existing code with `cosmos/iavl@v1.3.5` with the following modifications:
+- [#4656](https://github.com/steve-care-software/gno/pull/4656) Replace all existing code with `cosmos/iavl@v1.3.5` with the following modifications:
   - Change package path from `cosmos/iavl` to `gnolang/gno/tm2/pkg/iavl`
   - Remove import of `cosmossdk.io/store`, use `tm2/pkg/db` instead
   - Remove `iavl/db` package, use `tm2/pkg/db` instead

@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/privval"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/privval"
 )
 
 // -----------------------------------------------------------------------------

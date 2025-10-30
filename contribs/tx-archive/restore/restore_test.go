@@ -7,14 +7,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	_ "github.com/gnolang/gno/gno.land/pkg/sdk/vm" // this is needed to load amino types
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	_ "github.com/steve-care-software/gno/gno.land/pkg/sdk/vm" // this is needed to load amino types
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/contribs/tx-archive/log/noop"
+	"github.com/steve-care-software/gno/contribs/tx-archive/log/noop"
 )
 
 func TestRestore_ExecuteRestore(t *testing.T) {

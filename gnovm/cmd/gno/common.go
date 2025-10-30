@@ -10,9 +10,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/test"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/test"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"go.uber.org/multierr"
 )
 

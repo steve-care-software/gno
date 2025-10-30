@@ -3,7 +3,7 @@ package packages
 import (
 	"go/token"
 
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type MockResolver struct {

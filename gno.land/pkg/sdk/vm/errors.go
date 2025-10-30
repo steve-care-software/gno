@@ -3,7 +3,7 @@ package vm
 import (
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 	"go.uber.org/multierr"
 )
 

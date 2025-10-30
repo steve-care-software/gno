@@ -8,9 +8,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 var errInvalidConfigOutputPath = errors.New("invalid config output path provided")

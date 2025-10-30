@@ -14,8 +14,8 @@ import (
 	"go.uber.org/multierr"
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 /*

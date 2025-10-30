@@ -1,7 +1,7 @@
 package writer
 
 import (
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
 )
 
 // Writer defines the backup writer interface

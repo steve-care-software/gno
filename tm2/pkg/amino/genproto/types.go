@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/amino/libs/press"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino/libs/press"
 )
 
 //----------------------------------------

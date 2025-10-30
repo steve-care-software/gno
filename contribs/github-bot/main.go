@@ -5,9 +5,9 @@ import (
 	"flag"
 	"os"
 
-	"github.com/gnolang/gno/contribs/github-bot/internal/check"
-	"github.com/gnolang/gno/contribs/github-bot/internal/matrix"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/check"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/matrix"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type rootFlags struct {

@@ -6,8 +6,8 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 var errInvalidConfigGetArgs = errors.New("invalid number of config get arguments provided")

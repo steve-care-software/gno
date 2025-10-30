@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/test"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/test"
 	"github.com/stretchr/testify/require"
 )
 

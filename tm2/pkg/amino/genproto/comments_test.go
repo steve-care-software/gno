@@ -4,7 +4,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -25,7 +25,7 @@ type TestMessageName2 struct {
 func TestComments(t *testing.T) {
 	pkg := amino.RegisterPackage(
 		amino.NewPackage(
-			"github.com/gnolang/gno/tm2/pkg/amino/genproto",
+			"github.com/steve-care-software/gno/tm2/pkg/amino/genproto",
 			"amino_test",
 			amino.GetCallersDirname(),
 		).WithTypes(
@@ -42,7 +42,7 @@ func TestComments(t *testing.T) {
 	assert.Equal(t, `syntax = "proto3";
 package amino_test;
 
-option go_package = "github.com/gnolang/gno/tm2/pkg/amino/genproto/pb";
+option go_package = "github.com/steve-care-software/gno/tm2/pkg/amino/genproto/pb";
 
 // messages
 // message comment

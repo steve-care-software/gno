@@ -40,7 +40,7 @@ screen
 Copy them back from your local machine:
 
 ```
-scp user@host:go/src/github.com/gnolang/gno/tm2/pkg/iavl/results.txt results.txt
+scp user@host:go/src/github.com/steve-care-software/gno/tm2/pkg/iavl/results.txt results.txt
 git add results
 ```
 

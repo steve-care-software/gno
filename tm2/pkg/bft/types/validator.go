@@ -3,9 +3,9 @@ package types
 import (
 	"fmt"
 
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/random"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 // Volatile state for each Validator

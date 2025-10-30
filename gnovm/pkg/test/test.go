@@ -15,14 +15,14 @@ import (
 	"strings"
 	"time"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/packages"
-	"github.com/gnolang/gno/gnovm/stdlibs"
-	"github.com/gnolang/gno/gnovm/tests/stdlibs/chain/runtime"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/sdk"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	storetypes "github.com/gnolang/gno/tm2/pkg/store/types"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages"
+	"github.com/steve-care-software/gno/gnovm/stdlibs"
+	"github.com/steve-care-software/gno/gnovm/tests/stdlibs/chain/runtime"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	storetypes "github.com/steve-care-software/gno/tm2/pkg/store/types"
 	"go.uber.org/multierr"
 )
 

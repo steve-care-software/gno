@@ -5,13 +5,13 @@ import (
 	"testing"
 	"time"
 
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/log"
-	"github.com/gnolang/gno/tm2/pkg/random"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 func init() {

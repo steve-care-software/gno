@@ -3,7 +3,7 @@ package config
 import (
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -9,14 +9,14 @@ import (
 	"io/fs"
 	"path/filepath"
 
-	"github.com/gnolang/gno/gnovm/cmd/gno/internal/cmdutil"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
-	"github.com/gnolang/gno/gnovm/pkg/packages"
-	"github.com/gnolang/gno/gnovm/pkg/test"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gnovm/cmd/gno/internal/cmdutil"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages"
+	"github.com/steve-care-software/gno/gnovm/pkg/test"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"go.uber.org/multierr"
 )
 
@@ -53,7 +53,7 @@ func (c *lintCmd) RegisterFlags(fs *flag.FlagSet) {
 	rootdir := gnoenv.RootDir()
 
 	fs.BoolVar(&c.verbose, "v", false, "verbose output when lintning")
-	fs.StringVar(&c.rootDir, "root-dir", rootdir, "clone location of github.com/gnolang/gno (gno tries to guess it)")
+	fs.StringVar(&c.rootDir, "root-dir", rootdir, "clone location of github.com/steve-care-software/gno (gno tries to guess it)")
 	fs.BoolVar(&c.autoGnomod, "auto-gnomod", true, "auto-generate gnomod.toml file if not already present")
 }
 

@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	cfg "github.com/gnolang/gno/tm2/pkg/bft/config"
-	walm "github.com/gnolang/gno/tm2/pkg/bft/wal"
-	"github.com/gnolang/gno/tm2/pkg/random"
+	cfg "github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	walm "github.com/steve-care-software/gno/tm2/pkg/bft/wal"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 func randPort() int {

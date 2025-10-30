@@ -39,9 +39,9 @@ import (
 	"strconv"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/gnolang/gno/gnovm/pkg/parser"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/gnovm/pkg/parser"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
 )
 
 func (m *Machine) MustReadFile(path string) *FileNode {

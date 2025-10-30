@@ -17,15 +17,15 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/telemetry"
-	"github.com/gnolang/gno/tm2/pkg/telemetry/metrics"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry/metrics"
 	"github.com/gorilla/websocket"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/log"
-	"github.com/gnolang/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
 )
 
 // RegisterRPCFuncs adds a route for each function in the funcMap, as well as general jsonrpc and websocket handlers for all functions.
@@ -797,7 +797,7 @@ func (wsc *wsConnection) writeRoutine() {
 }
 
 // All writes to the websocket must (re)set the write deadline.
-// If some writes don't set it while others do, they may timeout incorrectly (https://github.com/gnolang/gno/tm2/pkg/bft/issues/553)
+// If some writes don't set it while others do, they may timeout incorrectly (https://github.com/steve-care-software/gno/tm2/pkg/bft/issues/553)
 func (wsc *wsConnection) writeMessageWithDeadline(msgType int, msg []byte) error {
 	if err := wsc.baseConn.SetWriteDeadline(time.Now().Add(wsc.writeWait)); err != nil {
 		return err

@@ -11,17 +11,17 @@ import (
 	"sync/atomic"
 	"time"
 
-	auto "github.com/gnolang/gno/tm2/pkg/autofile"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/appconn"
-	cfg "github.com/gnolang/gno/tm2/pkg/bft/mempool/config"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/clist"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/log"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
-	"github.com/gnolang/gno/tm2/pkg/telemetry"
-	"github.com/gnolang/gno/tm2/pkg/telemetry/metrics"
+	auto "github.com/steve-care-software/gno/tm2/pkg/autofile"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/appconn"
+	cfg "github.com/steve-care-software/gno/tm2/pkg/bft/mempool/config"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/clist"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry/metrics"
 )
 
 // --------------------------------------------------------------------------------

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/p2p/conn"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
-	"github.com/gnolang/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/conn"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
 	"github.com/stretchr/testify/require"
 )
 

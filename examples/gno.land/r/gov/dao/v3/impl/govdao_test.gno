@@ -181,7 +181,7 @@ func TestProposalPagination(cur realm, t *testing.T) {
 	testing.SetOriginCaller(m1)
 	pid = dao.MustCreateProposal(cross, proposalRequest)
 
-	// TODO: tests keep the same vm state: https://github.com/gnolang/gno/issues/1982
+	// TODO: tests keep the same vm state: https://github.com/steve-care-software/gno/issues/1982
 	urequire.Equal(t, 1, int(pid))
 
 	pid = dao.MustCreateProposal(cross, proposalRequest)

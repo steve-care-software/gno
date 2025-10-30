@@ -1,5 +1,5 @@
-# Originally, the addpkg failed due to changes in PR https://github.com/gnolang/gno/pull/1702 .
-# This bug was fixed with https://github.com/gnolang/gno/pull/2105 .
+# Originally, the addpkg failed due to changes in PR https://github.com/steve-care-software/gno/pull/1702 .
+# This bug was fixed with https://github.com/steve-care-software/gno/pull/2105 .
 
 gnoland start
 

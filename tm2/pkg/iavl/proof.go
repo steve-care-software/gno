@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sync"
 
-	hexbytes "github.com/gnolang/gno/tm2/pkg/iavl/internal/bytes"
-	"github.com/gnolang/gno/tm2/pkg/iavl/internal/encoding"
+	hexbytes "github.com/steve-care-software/gno/tm2/pkg/iavl/internal/bytes"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl/internal/encoding"
 )
 
 var bufPool = &sync.Pool{

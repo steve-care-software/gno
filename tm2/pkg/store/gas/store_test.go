@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/store/dbadapter"
-	"github.com/gnolang/gno/tm2/pkg/store/gas"
-	"github.com/gnolang/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/store/dbadapter"
+	"github.com/steve-care-software/gno/tm2/pkg/store/gas"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
 
 	"github.com/stretchr/testify/require"
 )

@@ -10,15 +10,15 @@ import (
 	"runtime/debug"
 	"strings"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/packages"
-	gnostdlibs "github.com/gnolang/gno/gnovm/stdlibs"
-	teststdlibs "github.com/gnolang/gno/gnovm/tests/stdlibs"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/store/dbadapter"
-	storetypes "github.com/gnolang/gno/tm2/pkg/store/types"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages"
+	gnostdlibs "github.com/steve-care-software/gno/gnovm/stdlibs"
+	teststdlibs "github.com/steve-care-software/gno/gnovm/tests/stdlibs"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/store/dbadapter"
+	storetypes "github.com/steve-care-software/gno/tm2/pkg/store/types"
 )
 
 type StoreOptions struct {

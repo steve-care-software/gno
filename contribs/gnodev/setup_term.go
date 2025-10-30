@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/gnolang/gno/contribs/gnodev/pkg/rawterm"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/rawterm"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 var noopRestore = func() error { return nil }

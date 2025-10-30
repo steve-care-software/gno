@@ -3,10 +3,10 @@ package params
 import (
 	"reflect"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	sm "github.com/gnolang/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	sm "github.com/steve-care-software/gno/tm2/pkg/store"
 )
 
 // Returns list of kvpairs from param struct.

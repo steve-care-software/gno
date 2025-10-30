@@ -12,15 +12,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	cfg "github.com/gnolang/gno/tm2/pkg/bft/config"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	tmtime "github.com/gnolang/gno/tm2/pkg/bft/types/time"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	cfg "github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	tmtime "github.com/steve-care-software/gno/tm2/pkg/bft/types/time"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 )
 
 // A cleanupFunc cleans up any config / test files created for a particular

@@ -13,7 +13,7 @@ This is a list of common Solidity patterns, converted and explained to match Gno
 - More common examples coming soon!
 
 > [!NOTE]
->  If you have experience with Solidity, or a common pattern is missing from this list, please add more examples to the [Monorepo](https://github.com/gnolang/gno/tree/master/examples/gno.land/r/docs/soliditypatterns)!
+>  If you have experience with Solidity, or a common pattern is missing from this list, please add more examples to the [Monorepo](https://github.com/steve-care-software/gno/tree/master/examples/gno.land/r/docs/soliditypatterns)!
 
 `
 	return content

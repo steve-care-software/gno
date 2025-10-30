@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
-	"github.com/gnolang/gno/gnovm/pkg/packages"
-	"github.com/gnolang/gno/gnovm/pkg/test"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages"
+	"github.com/steve-care-software/gno/gnovm/pkg/test"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type testCmd struct {
@@ -127,7 +127,7 @@ func (c *testCmd) RegisterFlags(fs *flag.FlagSet) {
 		&c.rootDir,
 		"root-dir",
 		"",
-		"clone location of github.com/gnolang/gno (gno tries to guess it)",
+		"clone location of github.com/steve-care-software/gno (gno tries to guess it)",
 	)
 
 	fs.BoolVar(

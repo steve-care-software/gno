@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/components"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/components"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
 	"github.com/yuin/goldmark"
 	mdhtml "github.com/yuin/goldmark/renderer/html"
 )

@@ -9,7 +9,7 @@ import (
 	"github.com/charmbracelet/bubbles/list"
 	tea "github.com/charmbracelet/bubbletea"
 	"github.com/charmbracelet/lipgloss"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
 	"github.com/sahilm/fuzzy"
 )
 

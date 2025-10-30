@@ -6,8 +6,8 @@ import (
 	"log/slog"
 
 	"github.com/charmbracelet/lipgloss"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/logger"
-	"github.com/gnolang/gno/gno.land/pkg/log"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/logger"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
 	"github.com/muesli/termenv"
 	"go.uber.org/zap/zapcore"
 )

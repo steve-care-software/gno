@@ -1,12 +1,12 @@
 package abci
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/crypto/merkle"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/merkle"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/tm2/pkg/bft/abci/types",
+	"github.com/steve-care-software/gno/tm2/pkg/bft/abci/types",
 	"abci",
 	amino.GetCallersDirname(),
 ).

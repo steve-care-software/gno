@@ -2,13 +2,13 @@ module github.com/steve-care-software/gno/contribs/gnodev
 
 go 1.23.6
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
 require (
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/charmbracelet/log v0.4.0
 	github.com/fsnotify/fsnotify v1.7.0
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 	github.com/gorilla/websocket v1.5.3
 	github.com/mattn/go-isatty v0.0.20
 	github.com/muesli/termenv v0.16.0

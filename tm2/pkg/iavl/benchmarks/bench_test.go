@@ -10,9 +10,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/goleveldb"
-	"github.com/gnolang/gno/tm2/pkg/iavl"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/goleveldb"
+	"github.com/steve-care-software/gno/tm2/pkg/iavl"
 )
 
 const historySize = 20

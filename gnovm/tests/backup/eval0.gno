@@ -4,7 +4,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/gnolang/gno/interp"
+	"github.com/steve-care-software/gno/interp"
 )
 
 func main() {

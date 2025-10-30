@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 // here are a range of rules predefined for preprocessor to check the compatibility between operands and operators

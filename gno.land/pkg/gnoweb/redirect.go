@@ -3,7 +3,7 @@ package gnoweb
 import (
 	"net/http"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/components"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/components"
 )
 
 // Redirects is a map of gnoweb paths that are redirected using RedirectMiddleware.

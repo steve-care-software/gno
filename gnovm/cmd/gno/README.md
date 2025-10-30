@@ -36,7 +36,7 @@ FLAGS
 
 ## Install
 
-    go install github.com/gnolang/gno/gnovm/cmd/gno
+    go install github.com/steve-care-software/gno/gnovm/cmd/gno
 
 Or
 

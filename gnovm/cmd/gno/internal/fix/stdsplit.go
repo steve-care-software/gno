@@ -85,7 +85,7 @@ func makeSplitFuncs() {
 		"chain/banker.NewCoins":      newSplitFunc("chain.NewCoins"),
 	}
 
-	// From a previous batch of std changes: https://github.com/gnolang/gno/pull/3374
+	// From a previous batch of std changes: https://github.com/steve-care-software/gno/pull/3374
 	splitFuncs["std.GetOrigSend"] = splitFuncs["std.OriginSend"]
 	splitFuncs["std.GetOrigCaller"] = splitFuncs["std.OriginCaller"]
 	splitFuncs["std.PrevRealm"] = splitFuncs["std.PreviousRealm"]

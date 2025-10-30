@@ -1,6 +1,6 @@
 package emitter
 
-import "github.com/gnolang/gno/contribs/gnodev/pkg/events"
+import "github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
 
 type NoopServer struct{}
 

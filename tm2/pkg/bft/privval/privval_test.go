@@ -6,10 +6,10 @@ import (
 	"path"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	tmtime "github.com/gnolang/gno/tm2/pkg/bft/types/time"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	tmtime "github.com/steve-care-software/gno/tm2/pkg/bft/types/time"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

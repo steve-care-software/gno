@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
 )
 
 var (

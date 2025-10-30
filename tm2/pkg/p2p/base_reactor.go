@@ -1,8 +1,8 @@
 package p2p
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/p2p/conn"
-	"github.com/gnolang/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/conn"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
 )
 
 // Reactor is responsible for handling incoming messages on one or more

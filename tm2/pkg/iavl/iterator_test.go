@@ -8,8 +8,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
 )
 
 func TestIterator_NewIterator_NilTree_Failure(t *testing.T) {

@@ -8,12 +8,12 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 
-	"github.com/gnolang/gno/tm2/pkg/store/types"
-	"github.com/gnolang/gno/tm2/pkg/store/utils"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/store/utils"
 )
 
 // If value is nil but deleted is false, it means the parent doesn't have the

@@ -10,10 +10,10 @@ import (
 	"time"
 
 	hcal "github.com/bendory/conway-hebrew-calendar"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/gnovm/pkg/repl"
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/repl"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type replCfg struct {
@@ -43,7 +43,7 @@ func (c *replCfg) RegisterFlags(fs *flag.FlagSet) {
 		&c.rootDir,
 		"root-dir",
 		"",
-		"clone location of github.com/gnolang/gno (gno tries to guess it)",
+		"clone location of github.com/steve-care-software/gno (gno tries to guess it)",
 	)
 
 	fs.StringVar(

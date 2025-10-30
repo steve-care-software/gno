@@ -3,7 +3,7 @@ package cache
 import (
 	lru "github.com/hashicorp/golang-lru/v2"
 
-	ibytes "github.com/gnolang/gno/tm2/pkg/iavl/internal/bytes"
+	ibytes "github.com/steve-care-software/gno/tm2/pkg/iavl/internal/bytes"
 )
 
 // Node represents a node eligible for caching.

@@ -3,8 +3,8 @@ package cstypes
 import (
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/bitarray"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bitarray"
 )
 
 type ConsensusEvent interface {

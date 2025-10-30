@@ -4,9 +4,9 @@ import (
 	"context"
 	"flag"
 
-	"github.com/gnolang/gno/contribs/gnokms/internal/common"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/gnokms/internal/common"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type gnokeyFlags struct {

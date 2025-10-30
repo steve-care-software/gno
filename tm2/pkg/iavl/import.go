@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
 )
 
 // maxBatchSize is the maximum size of the import batch before flushing it to the database

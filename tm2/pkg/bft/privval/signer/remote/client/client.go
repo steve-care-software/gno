@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	r "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
+	r "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
 )
 
 // RemoteSignerClient implements types.Signer by connecting to a RemoteSignerServer.

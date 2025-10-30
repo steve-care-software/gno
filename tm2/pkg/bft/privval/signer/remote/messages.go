@@ -1,7 +1,7 @@
 package remote
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 // MaxMessageSize is the maximum size in bytes of a message that can be sent or received.

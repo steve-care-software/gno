@@ -5,13 +5,13 @@ import (
 	"os"
 	"path/filepath"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	_ "github.com/gnolang/gno/tm2/pkg/db/pebbledb"
-	"github.com/gnolang/gno/tm2/pkg/store"
-	"github.com/gnolang/gno/tm2/pkg/store/dbadapter"
-	"github.com/gnolang/gno/tm2/pkg/store/iavl"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	_ "github.com/steve-care-software/gno/tm2/pkg/db/pebbledb"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/store/dbadapter"
+	"github.com/steve-care-software/gno/tm2/pkg/store/iavl"
 )
 
 const maxAllocTx = 500 * 1000 * 1000

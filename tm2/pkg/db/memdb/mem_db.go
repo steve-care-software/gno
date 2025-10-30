@@ -5,9 +5,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/internal"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/internal"
 )
 
 func init() {

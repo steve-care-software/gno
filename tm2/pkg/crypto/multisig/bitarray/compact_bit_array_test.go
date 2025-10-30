@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/random"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

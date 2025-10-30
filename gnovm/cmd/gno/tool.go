@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 func newToolCmd(io commands.IO) *commands.Command {

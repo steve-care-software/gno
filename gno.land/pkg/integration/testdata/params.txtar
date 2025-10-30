@@ -1,6 +1,6 @@
 # XXX(FIXME): missing module name in error: `Data: module name <> not registered`
 
-# test for https://github.com/gnolang/gno/pull/2920
+# test for https://github.com/steve-care-software/gno/pull/2920
 
 gnoland start
 

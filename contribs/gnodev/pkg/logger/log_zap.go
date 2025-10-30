@@ -4,7 +4,7 @@ import (
 	"io"
 	"log/slog"
 
-	"github.com/gnolang/gno/gno.land/pkg/log"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 )

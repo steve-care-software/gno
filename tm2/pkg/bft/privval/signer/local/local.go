@@ -3,8 +3,8 @@ package local
 import (
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 // LocalSigner implements types.Signer using a FileKey persisted to disk.

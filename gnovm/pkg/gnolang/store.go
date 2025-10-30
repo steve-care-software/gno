@@ -9,15 +9,15 @@ import (
 	"strconv"
 	"strings"
 
-	bm "github.com/gnolang/gno/gnovm/pkg/benchops"
-	"github.com/gnolang/gno/gnovm/pkg/gnolang/internal/txlog"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/colors"
-	"github.com/gnolang/gno/tm2/pkg/overflow"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/store"
-	"github.com/gnolang/gno/tm2/pkg/store/utils"
-	stringz "github.com/gnolang/gno/tm2/pkg/strings"
+	bm "github.com/steve-care-software/gno/gnovm/pkg/benchops"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang/internal/txlog"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/colors"
+	"github.com/steve-care-software/gno/tm2/pkg/overflow"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/store/utils"
+	stringz "github.com/steve-care-software/gno/tm2/pkg/strings"
 	"github.com/pmezard/go-difflib/difflib"
 )
 
@@ -238,7 +238,7 @@ func (t transactionStore) Write() {
 // XXX: we should block Go2GnoType, because it uses a global cache map;
 // but it's called during preprocess and thus breaks some testing code.
 // let's wait until we remove Go2Gno entirely.
-// https://github.com/gnolang/gno/issues/1361
+// https://github.com/steve-care-software/gno/issues/1361
 // func (transactionStore) Go2GnoType(reflect.Type) Type {
 // 	panic("Go2GnoType may not be called in a transaction store")
 // }

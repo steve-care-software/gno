@@ -3,7 +3,7 @@ package client
 import (
 	"context"
 
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 // Client defines the client interface for sending tx data

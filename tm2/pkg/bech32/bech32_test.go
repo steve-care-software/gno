@@ -6,8 +6,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/bech32"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/bech32"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 	"github.com/stretchr/testify/assert"
 )
 

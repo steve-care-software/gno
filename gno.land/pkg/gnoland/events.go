@@ -1,7 +1,7 @@
 package gnoland
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/events"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
 	"github.com/rs/xid"
 )
 

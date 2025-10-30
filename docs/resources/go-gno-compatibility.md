@@ -67,7 +67,7 @@ Additional builtin types:
 | type     | comment                                                                                    |
 |----------|--------------------------------------------------------------------------------------------|
 | `bigint` | Based on `math/big.Int`                                                                    |
-| `bigdec` | Based on https://github.com/cockroachdb/apd, (see https://github.com/gnolang/gno/pull/306) |
+| `bigdec` | Based on https://github.com/cockroachdb/apd, (see https://github.com/steve-care-software/gno/pull/306) |
 
 
 ## Stdlibs
@@ -89,7 +89,7 @@ Legend:
 * `tbd`: whether to include the standard library or not is still up for
   discussion.
 * `todo`: the standard library is to be added, and
-  [contributions are welcome.](https://github.com/gnolang/gno/issues/1267)
+  [contributions are welcome.](https://github.com/steve-care-software/gno/issues/1267)
 * `part`: the standard library is partially implemented in Gno, and contributions are
   welcome to add the missing functionality.
 * `full`: the standard library is fully implemented in Gno.
@@ -300,7 +300,7 @@ Legend:
 | go bug            | gno bug                      | same behavior                                                         |
 | go build          | gno tool transpile -gobuild  | same intention, limited compatibility                                 |
 | go clean          | gno clean                    | same intention, limited compatibility                                 |
-| go doc            | gno doc                      | limited compatibility; see https://github.com/gnolang/gno/issues/522  |
+| go doc            | gno doc                      | limited compatibility; see https://github.com/steve-care-software/gno/issues/522  |
 | go env            | gno env                      |                                                                       |
 | go fix            |                              |                                                                       |
 | go fmt            | gno fmt                      | gofmt (& similar tools, like gofumpt) works on gno code.              |

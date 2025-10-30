@@ -14,8 +14,8 @@ import (
 	"slices"
 	"strings"
 
-	r "github.com/gnolang/gno/tm2/pkg/regx"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	r "github.com/steve-care-software/gno/tm2/pkg/regx"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"go.uber.org/multierr"
 )
 

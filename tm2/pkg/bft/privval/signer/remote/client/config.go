@@ -6,8 +6,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
 )
 
 // RemoteSignerClientConfig defines the configuration options for a RemoteSignerClient.

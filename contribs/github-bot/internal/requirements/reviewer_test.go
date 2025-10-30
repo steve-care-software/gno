@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gnolang/gno/contribs/github-bot/internal/client"
-	"github.com/gnolang/gno/contribs/github-bot/internal/logger"
-	"github.com/gnolang/gno/contribs/github-bot/internal/utils"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/client"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/logger"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/utils"
 	"github.com/stretchr/testify/assert"
 
 	"github.com/google/go-github/v64/github"

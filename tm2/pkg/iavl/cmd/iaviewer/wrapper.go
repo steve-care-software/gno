@@ -1,7 +1,7 @@
 package main
 
 import (
-	dbm "github.com/gnolang/gno/tm2/pkg/db"
+	dbm "github.com/steve-care-software/gno/tm2/pkg/db"
 )
 
 // Wrapper wraps a dbm.DB to implement DB.

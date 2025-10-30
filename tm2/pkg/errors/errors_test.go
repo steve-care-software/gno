@@ -149,17 +149,17 @@ func TestStripBuildDir(t *testing.T) {
 		{
 			name: "project file with GOMOD set",
 			setupEnv: func() {
-				os.Setenv("GOMOD", "/home/user/go/src/github.com/gnolang/gno/go.mod")
+				os.Setenv("GOMOD", "/home/user/go/src/github.com/steve-care-software/gno/go.mod")
 			},
-			input:    "/home/user/go/src/github.com/gnolang/gno/tm2/pkg/errors/errors.go",
+			input:    "/home/user/go/src/github.com/steve-care-software/gno/tm2/pkg/errors/errors.go",
 			expected: "gno/tm2/pkg/errors/errors.go",
 		},
 		{
 			name: "project file in subdirectory",
 			setupEnv: func() {
-				os.Setenv("GOMOD", "/home/user/go/src/github.com/gnolang/gno/go.mod")
+				os.Setenv("GOMOD", "/home/user/go/src/github.com/steve-care-software/gno/go.mod")
 			},
-			input:    "/home/user/go/src/github.com/gnolang/gno/gno.land/pkg/gnoland/app.go",
+			input:    "/home/user/go/src/github.com/steve-care-software/gno/gno.land/pkg/gnoland/app.go",
 			expected: "gno/gno.land/pkg/gnoland/app.go",
 		},
 		{
@@ -167,8 +167,8 @@ func TestStripBuildDir(t *testing.T) {
 			setupEnv: func() {
 				os.Setenv("GOMOD", "/dev/null")
 			},
-			input:    "/home/user/go/src/github.com/gnolang/gno/tm2/pkg/errors/errors.go",
-			expected: "/home/user/go/src/github.com/gnolang/gno/tm2/pkg/errors/errors.go",
+			input:    "/home/user/go/src/github.com/steve-care-software/gno/tm2/pkg/errors/errors.go",
+			expected: "/home/user/go/src/github.com/steve-care-software/gno/tm2/pkg/errors/errors.go",
 		},
 
 		// Go module paths

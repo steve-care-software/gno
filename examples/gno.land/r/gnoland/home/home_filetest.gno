@@ -48,7 +48,7 @@ func main() {
 //
 // ## Explore the universe
 //
-// - [Discover demo packages](https://github.com/gnolang/gno/tree/master/examples)
+// - [Discover demo packages](https://github.com/steve-care-software/gno/tree/master/examples)
 // - [Gnoscan](https://gnoscan.io)
 // - [Staging chain](https://docs.gno.land/resources/gnoland-networks/#staging-environments-portal-loops)
 // - [Testnet 7](https://test7.testnets.gno.land/)

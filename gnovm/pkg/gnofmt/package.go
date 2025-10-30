@@ -9,7 +9,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
 )
 
 type Package interface {

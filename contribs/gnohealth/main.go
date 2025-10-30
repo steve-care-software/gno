@@ -4,8 +4,8 @@ import (
 	"context"
 	"os"
 
-	"github.com/gnolang/gno/contribs/gnohealth/internal/timestamp"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/gnohealth/internal/timestamp"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 func main() {

@@ -1,11 +1,11 @@
 package keys
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys",
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys",
 	"tm.keys",
 	amino.GetCallersDirname(),
 ).WithDependencies().WithTypes(

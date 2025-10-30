@@ -22,7 +22,7 @@ There have been many examples posted, including a minimal [LISP REPL](https://gi
 
 ### GNO grammar - partial
 
-In summer 2023, started to port the GNO grammar using Joeson (since there was no news about joeson, so this was an attempt to demonstrate it worked). Grammar was posted in [PR 1156](https://github.com/gnolang/gno/pull/1156). There are only 3 files, they are quite dense:
+In summer 2023, started to port the GNO grammar using Joeson (since there was no news about joeson, so this was an attempt to demonstrate it worked). Grammar was posted in [PR 1156](https://github.com/steve-care-software/gno/pull/1156). There are only 3 files, they are quite dense:
 
 1. [joeson_test.go](https://github.com/grepsuzette/gno/blob/joeson/gnovm/pkg/gnolang/joeson_test.go)
 1. [joeson_rules.go](https://github.com/grepsuzette/gno/blob/joeson/gnovm/pkg/gnolang/joeson_rules.go)
@@ -65,13 +65,13 @@ Check the [other experiments here](/conjects/gnoweb.md).
 
 Also worked on an anthology of publicly knowned vulnerabilities that affected Tendermint. 
 
-* [Cosmos-sdk vulnerability retrospective](https://github.com/gnolang/gno/issues/587)
+* [Cosmos-sdk vulnerability retrospective](https://github.com/steve-care-software/gno/issues/587)
 * found most vulns were not affecting our Tendermint version, however:
-* [demonstrated vulnerability to BSC 2022-10-07 hack](https://github.com/gnolang/gno/pull/583)
-* [proposed fix to vuln to BSC 2022-10-07 hack (merged)](https://github.com/gnolang/gno/pull/584)
+* [demonstrated vulnerability to BSC 2022-10-07 hack](https://github.com/steve-care-software/gno/pull/583)
+* [proposed fix to vuln to BSC 2022-10-07 hack (merged)](https://github.com/steve-care-software/gno/pull/584)
 * not all of them were tested, as I was hoping some more feedback before to continue.
 
-There is also a small [GNO mail](https://github.com/gnolang/gno/pull/641) which got no UI is discussed in [one of my articles](https://greps.gnasteroid.com/articles/encryptedmail.md).
+There is also a small [GNO mail](https://github.com/steve-care-software/gno/pull/641) which got no UI is discussed in [one of my articles](https://greps.gnasteroid.com/articles/encryptedmail.md).
 
 Thanks for reading!
 `

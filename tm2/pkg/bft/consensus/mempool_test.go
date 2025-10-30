@@ -9,13 +9,13 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/abci/example/errors"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	cstypes "github.com/gnolang/gno/tm2/pkg/bft/consensus/types"
-	mempl "github.com/gnolang/gno/tm2/pkg/bft/mempool"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/abci/example/errors"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	cstypes "github.com/steve-care-software/gno/tm2/pkg/bft/consensus/types"
+	mempl "github.com/steve-care-software/gno/tm2/pkg/bft/mempool"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
 )
 
 // for testing

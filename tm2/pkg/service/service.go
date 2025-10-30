@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"sync/atomic"
 
-	"github.com/gnolang/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
 )
 
 var (

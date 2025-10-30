@@ -4,8 +4,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	r "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	r "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote"
 )
 
 // ensureConnection tries to establish a connection with the server.

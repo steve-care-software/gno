@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/gnolang/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
 )
 
 // MockPackage represents a mock package with files and function signatures for testing.

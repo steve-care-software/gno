@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/gnovm/pkg/packages/pkgdownload"
-	"github.com/gnolang/gno/gnovm/pkg/packages/pkgdownload/examplespkgfetcher"
-	"github.com/gnolang/gno/tm2/pkg/testutils"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages/pkgdownload"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages/pkgdownload/examplespkgfetcher"
+	"github.com/steve-care-software/gno/tm2/pkg/testutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
 )
 
 // Book reference a list of addresses optionally associated with a name

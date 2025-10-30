@@ -12,15 +12,15 @@ import (
 
 	"github.com/Khan/genqlient/graphql"
 	"github.com/gnolang/faucet"
-	"github.com/gnolang/gno/gno.land/pkg/log"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 	"github.com/google/go-github/v74/github"
 	"github.com/jferrl/go-githubauth"
 	"github.com/redis/go-redis/v9"
 	"go.uber.org/zap/zapcore"
 	"golang.org/x/oauth2"
 
-	igh "github.com/gnolang/gno/contribs/gnofaucet/github"
+	igh "github.com/steve-care-software/gno/contribs/gnofaucet/github"
 )
 
 type githubCfg struct {

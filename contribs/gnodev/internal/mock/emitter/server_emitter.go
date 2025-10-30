@@ -3,8 +3,8 @@ package emitter
 import (
 	"sync"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/emitter"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/events"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/emitter"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
 )
 
 // Define empty event for NextEvent empty queue

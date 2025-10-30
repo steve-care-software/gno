@@ -12,8 +12,8 @@ import (
 
 	"github.com/cockroachdb/apd/v3"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang/internal/softfloat"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang/internal/softfloat"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 // ----------------------------------------
@@ -2001,7 +2001,7 @@ func (tv *TypedValue) GetPointerAtIndex(rlm *Realm, alloc *Allocator, store Stor
 
 		// if a key is getting attached, we should update it with the new one,
 		// as that is the one that matters. this is mostly relevant for -0 / 0.
-		// https://github.com/gnolang/gno/pull/4114
+		// https://github.com/steve-care-software/gno/pull/4114
 		var oldObject Object
 		key, isNaN := iv.ComputeMapKey(store, false)
 		if !isNaN {

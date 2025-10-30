@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	bm "github.com/gnolang/gno/gnovm/pkg/benchops"
+	bm "github.com/steve-care-software/gno/gnovm/pkg/benchops"
 )
 
 var (

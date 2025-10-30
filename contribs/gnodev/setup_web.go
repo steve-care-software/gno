@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb"
 )
 
 // setupGnowebServer initializes and starts the Gnoweb server.

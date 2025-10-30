@@ -3,7 +3,7 @@ version: 3
 # https://github.com/fossas/fossa-cli/blob/master/docs/references/files/fossa-yml.md
 
 project:
-  id: github.com/gnolang/gno
+  id: github.com/steve-care-software/gno
   name: gno
 
 targets:

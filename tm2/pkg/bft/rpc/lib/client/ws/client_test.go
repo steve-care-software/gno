@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
 	"github.com/gorilla/websocket"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

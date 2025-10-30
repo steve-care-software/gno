@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 	queue "github.com/sig-0/insertion-queue"
 )
 

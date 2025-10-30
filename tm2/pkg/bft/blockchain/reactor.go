@@ -7,12 +7,12 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/store"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/p2p"
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/store"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 const (

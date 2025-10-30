@@ -5,7 +5,7 @@ stdout 'g1lmgyf29g6zqgpln5pq05zzt7qkz2wga7xgagv4'
 # This txtar is a regression test for a bug, whereby a type is committed to
 # the defaultStore.cacheTypes map, but not to the underlying store (due to a
 # failing transaction).
-# For more information: https://github.com/gnolang/gno/pull/2605
+# For more information: https://github.com/steve-care-software/gno/pull/2605
 loadpkg gno.land/p/nt/avl
 gnoland start
 

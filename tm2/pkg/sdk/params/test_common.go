@@ -1,14 +1,14 @@
 package params
 
 import (
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/log"
-	"github.com/gnolang/gno/tm2/pkg/sdk"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
 
-	"github.com/gnolang/gno/tm2/pkg/store"
-	"github.com/gnolang/gno/tm2/pkg/store/iavl"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/store/iavl"
 )
 
 type testEnv struct {

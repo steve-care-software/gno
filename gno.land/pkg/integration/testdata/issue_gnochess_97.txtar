@@ -1,4 +1,4 @@
-# test for https://github.com/gnolang/gnochess/issues/97
+# test for https://github.com/steve-care-software/gnochess/issues/97
 
 loadpkg gno.land/r/demo/bug97 $WORK
 

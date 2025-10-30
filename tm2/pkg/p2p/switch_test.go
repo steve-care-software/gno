@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/p2p/dial"
-	"github.com/gnolang/gno/tm2/pkg/p2p/mock"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/dial"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/mock"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

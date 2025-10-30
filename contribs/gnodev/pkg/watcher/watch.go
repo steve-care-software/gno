@@ -8,9 +8,9 @@ import (
 	"strings"
 	"time"
 
-	emitter "github.com/gnolang/gno/contribs/gnodev/pkg/emitter"
-	events "github.com/gnolang/gno/contribs/gnodev/pkg/events"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/packages"
+	emitter "github.com/steve-care-software/gno/contribs/gnodev/pkg/emitter"
+	events "github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/packages"
 
 	"github.com/fsnotify/fsnotify"
 )

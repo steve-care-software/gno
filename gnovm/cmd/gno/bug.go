@@ -11,8 +11,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/version"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/version"
 )
 
 // NOTE: keep in sync with .github/ISSUE_TEMPLATE/BUG-REPORT.md
@@ -64,7 +64,7 @@ func newBugCmd(io commands.IO) *commands.Command {
 			Name:       "bug",
 			ShortUsage: "bug",
 			ShortHelp:  "start a bug report",
-			LongHelp: `opens https://github.com/gnolang/gno/issues in a browser.
+			LongHelp: `opens https://github.com/steve-care-software/gno/issues in a browser.
 
 The new issue body is prefilled for you with the following information:
 
@@ -116,13 +116,13 @@ func execBug(cfg *bugCfg, args []string, io commands.IO) error {
 	tmpl.Execute(&buf, bugReportEnv)
 
 	body := buf.String()
-	url := "https://github.com/gnolang/gno/issues/new?body=" + url.QueryEscape(body)
+	url := "https://github.com/steve-care-software/gno/issues/new?body=" + url.QueryEscape(body)
 
 	if !cfg.skipBrowser && openBrowser(url) {
 		return nil
 	}
 
-	io.Println("Please file a new issue at github.com/gnolang/gno/issues/new using this template:")
+	io.Println("Please file a new issue at github.com/steve-care-software/gno/issues/new using this template:")
 	io.Println()
 	io.Println(body)
 

@@ -8,12 +8,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	signer "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	signer "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 var errInvalidSecretsGetArgs = errors.New("invalid number of secrets get arguments provided")

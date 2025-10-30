@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"testing"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/stdlibs/internal/execctx"
-	"github.com/gnolang/gno/tm2/pkg/sdk"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/internal/execctx"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
 	"github.com/stretchr/testify/assert"
 )
 

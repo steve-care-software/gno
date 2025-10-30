@@ -6,7 +6,7 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 )
 
 func X_typeString(v gnolang.TypedValue) string {

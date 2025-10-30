@@ -164,4 +164,4 @@ func main() {
 
 ## Contributing
 
-Please submit any issues or pull requests for this package through the GitHub repository at [gnolang/gno](<https://github.com/gnolang/gno>).
+Please submit any issues or pull requests for this package through the GitHub repository at [gnolang/gno](<https://github.com/steve-care-software/gno>).

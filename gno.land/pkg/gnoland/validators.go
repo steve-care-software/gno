@@ -3,9 +3,9 @@ package gnoland
 import (
 	"regexp"
 
-	"github.com/gnolang/gno/gnovm/stdlibs/chain"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/events"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/chain"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
 )
 
 const (

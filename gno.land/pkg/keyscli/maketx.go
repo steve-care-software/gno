@@ -3,8 +3,8 @@ package keyscli
 import (
 	"flag"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/client"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/client"
 )
 
 type MakeTxCfg struct {

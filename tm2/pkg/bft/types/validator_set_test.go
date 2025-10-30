@@ -11,11 +11,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	tmtime "github.com/gnolang/gno/tm2/pkg/bft/types/time"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/mock"
-	"github.com/gnolang/gno/tm2/pkg/random"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	tmtime "github.com/steve-care-software/gno/tm2/pkg/bft/types/time"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/mock"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 func TestValidatorSetBasic(t *testing.T) {

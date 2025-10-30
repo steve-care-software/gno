@@ -6,11 +6,11 @@ import (
 	"os"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	tmtime "github.com/gnolang/gno/tm2/pkg/bft/types/time"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	tmtime "github.com/steve-care-software/gno/tm2/pkg/bft/types/time"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 // Step is the step in the consensus process.

@@ -99,7 +99,7 @@ shasum -a 256 genesis.json
 
 **NOTE**: Keep in mind that the generated genesis.json checksum will differ from the downloaded one,
 because of a bug in `gnogenesis balances` that doesn't deterministically generate the genesis balance list:
-https://github.com/gnolang/gno/issues/4122
+https://github.com/steve-care-software/gno/issues/4122
 
 ---
 

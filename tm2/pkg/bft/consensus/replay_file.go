@@ -9,12 +9,12 @@ import (
 	"strconv"
 	"strings"
 
-	cstypes "github.com/gnolang/gno/tm2/pkg/bft/consensus/types"
-	sm "github.com/gnolang/gno/tm2/pkg/bft/state"
-	walm "github.com/gnolang/gno/tm2/pkg/bft/wal"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	"github.com/gnolang/gno/tm2/pkg/events"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	cstypes "github.com/steve-care-software/gno/tm2/pkg/bft/consensus/types"
+	sm "github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	walm "github.com/steve-care-software/gno/tm2/pkg/bft/wal"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 const (

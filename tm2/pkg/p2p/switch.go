@@ -11,14 +11,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/p2p/config"
-	"github.com/gnolang/gno/tm2/pkg/p2p/conn"
-	"github.com/gnolang/gno/tm2/pkg/p2p/dial"
-	"github.com/gnolang/gno/tm2/pkg/p2p/events"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
-	"github.com/gnolang/gno/tm2/pkg/service"
-	"github.com/gnolang/gno/tm2/pkg/telemetry"
-	"github.com/gnolang/gno/tm2/pkg/telemetry/metrics"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/config"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/conn"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/dial"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/events"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry/metrics"
 )
 
 // defaultDialTimeout is the default wait time for a dial to succeed

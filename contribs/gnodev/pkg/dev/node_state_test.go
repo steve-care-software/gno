@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	mock "github.com/gnolang/gno/contribs/gnodev/internal/mock/emitter"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/events"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	mock "github.com/steve-care-software/gno/contribs/gnodev/internal/mock/emitter"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/events"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

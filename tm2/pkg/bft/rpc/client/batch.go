@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	rpcclient "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/client"
-	rpctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	rpcclient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/client"
+	rpctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
 )
 
 var errEmptyBatch = errors.New("RPC batch is empty")

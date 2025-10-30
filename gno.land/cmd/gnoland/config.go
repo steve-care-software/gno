@@ -8,8 +8,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 const tryConfigInit = "unable to load config; try running `gnoland config init` or use the -lazy flag"

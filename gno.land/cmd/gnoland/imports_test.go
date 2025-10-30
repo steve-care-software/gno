@@ -11,12 +11,12 @@ import (
 func TestNoTestingStdlibImport(t *testing.T) {
 	t.Skip("as keeper is now also typchecking `_test` files, this test doesn't make sense anymore")
 
-	// See: https://github.com/gnolang/gno/issues/3585
+	// See: https://github.com/steve-care-software/gno/issues/3585
 	// The gno.land binary should not import testing stdlibs, which contain unsafe
 	// code in the respective native bindings.
 
 	res, err := exec.Command("go", "list", "-f", `{{ join .Deps "\n" }}`, ".").CombinedOutput()
 	require.NoError(t, err)
-	assert.Contains(t, string(res), "github.com/gnolang/gno/gnovm/stdlibs\n", "should contain normal stdlibs")
-	assert.NotContains(t, string(res), "github.com/gnolang/gno/gnovm/tests/stdlibs\n", "should not contain test stdlibs")
+	assert.Contains(t, string(res), "github.com/steve-care-software/gno/gnovm/stdlibs\n", "should contain normal stdlibs")
+	assert.NotContains(t, string(res), "github.com/steve-care-software/gno/gnovm/tests/stdlibs\n", "should not contain test stdlibs")
 }

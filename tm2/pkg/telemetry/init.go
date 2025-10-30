@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/gnolang/gno/tm2/pkg/telemetry/config"
-	"github.com/gnolang/gno/tm2/pkg/telemetry/metrics"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry/config"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry/metrics"
 )
 
 var (

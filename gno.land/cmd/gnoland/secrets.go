@@ -5,9 +5,9 @@ import (
 	"flag"
 	"path/filepath"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/config"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 var (

@@ -1,12 +1,12 @@
 package chain
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/gnovm/stdlibs/chain",
+	"github.com/steve-care-software/gno/gnovm/stdlibs/chain",
 	"tm",
 	amino.GetCallersDirname(),
 ).

@@ -1,11 +1,11 @@
 package discovery
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/tm2/pkg/p2p/discovery",
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/discovery",
 	"p2p",
 	amino.GetCallersDirname(),
 ).

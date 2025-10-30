@@ -1,6 +1,6 @@
 # What is Gno?
 
-[Gno](https://github.com/gnolang/gno) is an interpretation of the widely-used Go
+[Gno](https://github.com/steve-care-software/gno) is an interpretation of the widely-used Go
 (Golang) programming language for blockchain created by Cosmos co-founder Jae
 Kwon in 2022 to mark a new era in smart contracting. Gno is ~99% identical to
 Go, so Go programmers can start coding in Gno right away, with a minimal

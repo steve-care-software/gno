@@ -1,12 +1,12 @@
 package vm
 
 import (
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 var Package = amino.RegisterPackage(amino.NewPackage(
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm",
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm",
 	"vm",
 	amino.GetCallersDirname(),
 ).WithDependencies(

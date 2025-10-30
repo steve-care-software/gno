@@ -87,8 +87,8 @@ github.com/getsentry/sentry-go v0.27.0 h1:Pv98CIbtB3LkMWmXi4Joa5OOcwbmnX88sF5qbK
 github.com/getsentry/sentry-go v0.27.0/go.mod h1:lc76E2QywIyW8WuBnwl8Lc4bkmQH4+w1gwTf25trprY=
 github.com/gnolang/faucet v0.5.3 h1:0gRPpGZKfBWmIh0j2XyLjVrLMqfWFcfMwKIolOyPyfU=
 github.com/gnolang/faucet v0.5.3/go.mod h1:qai/Yv3lc7DmzzDJLDtgoMnO5zL7eig74v8dI0s3CmA=
-github.com/gnolang/gno v0.0.0-20250901125041-596de150f06c h1:SDRRcGLfw9qdRCctx/v2LsDnKE9OiguSGtBF2yuz8hs=
-github.com/gnolang/gno v0.0.0-20250901125041-596de150f06c/go.mod h1:j9wKq29meqwktEj2ReqPbSkeYUwoisfxHHVeV20lhtw=
+github.com/steve-care-software/gno v0.0.0-20250901125041-596de150f06c h1:SDRRcGLfw9qdRCctx/v2LsDnKE9OiguSGtBF2yuz8hs=
+github.com/steve-care-software/gno v0.0.0-20250901125041-596de150f06c/go.mod h1:j9wKq29meqwktEj2ReqPbSkeYUwoisfxHHVeV20lhtw=
 github.com/go-chi/chi/v5 v5.2.3 h1:WQIt9uxdsAbgIYgid+BpYc+liqQZGMHRaUwp0JUcvdE=
 github.com/go-chi/chi/v5 v5.2.3/go.mod h1:L2yAIGWB3H+phAw1NxKwWM+7eUH/lU8pOMm5hHcoops=
 github.com/go-chi/render v1.0.3 h1:AsXqd2a1/INaIfUSKq3G5uA8weYx20FOsM7uSoCyyt4=

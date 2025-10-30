@@ -15,7 +15,7 @@ gnokey maketx call -pkgpath gno.land/r/cpu_cycle_overrun1 -func AddData -gas-fee
 stdout OK!
 
 # Call AddData one more time. The call to Render used to hang. If you commented this out, then the call to Render would return quickly.
-# This bug was fixed by https://github.com/gnolang/gno/pull/4060
+# This bug was fixed by https://github.com/steve-care-software/gno/pull/4060
 gnokey maketx call -pkgpath gno.land/r/cpu_cycle_overrun1 -func AddData -gas-fee 1000000ugnot -gas-wanted 1000000000 -broadcast -chainid=tendermint_test test1
 stdout OK!
 

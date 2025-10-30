@@ -14,10 +14,10 @@ import (
 	"strconv"
 	"strings"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	teststdlibs "github.com/gnolang/gno/gnovm/tests/stdlibs"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/store"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	teststdlibs "github.com/steve-care-software/gno/gnovm/tests/stdlibs"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
 	"github.com/pmezard/go-difflib/difflib"
 	"go.uber.org/multierr"
 )

@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	r "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/remote"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	r "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/remote"
 )
 
 func (rss *RemoteSignerServer) setListener(listener net.Listener) error {

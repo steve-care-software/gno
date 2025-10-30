@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"io"
 
-	bm "github.com/gnolang/gno/gnovm/pkg/benchops"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/overflow"
-	"github.com/gnolang/gno/tm2/pkg/store/types"
+	bm "github.com/steve-care-software/gno/gnovm/pkg/benchops"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/overflow"
+	"github.com/steve-care-software/gno/tm2/pkg/store/types"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/address"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/address"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 func setupAddressBook(logger *slog.Logger, cfg *AppConfig) (*address.Book, error) {

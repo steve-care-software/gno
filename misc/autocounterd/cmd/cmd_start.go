@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	rpcclient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	rpcclient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type startCfg struct {

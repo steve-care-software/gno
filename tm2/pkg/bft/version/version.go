@@ -1,10 +1,10 @@
 package version
 
 import (
-	abciver "github.com/gnolang/gno/tm2/pkg/bft/abci/version"
-	bcver "github.com/gnolang/gno/tm2/pkg/bft/blockchain/version"
-	p2pver "github.com/gnolang/gno/tm2/pkg/p2p/version"
-	verset "github.com/gnolang/gno/tm2/pkg/versionset"
+	abciver "github.com/steve-care-software/gno/tm2/pkg/bft/abci/version"
+	bcver "github.com/steve-care-software/gno/tm2/pkg/bft/blockchain/version"
+	p2pver "github.com/steve-care-software/gno/tm2/pkg/p2p/version"
+	verset "github.com/steve-care-software/gno/tm2/pkg/versionset"
 )
 
 var (

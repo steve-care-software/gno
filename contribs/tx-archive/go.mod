@@ -5,7 +5,7 @@ go 1.23.6
 toolchain go1.24.3
 
 require (
-	github.com/gnolang/gno v0.0.0-20250528110257-f6b725541d59
+	github.com/steve-care-software/gno v0.0.0-20250528110257-f6b725541d59
 	github.com/peterbourgon/ff/v3 v3.4.0
 	github.com/stretchr/testify v1.10.0
 	go.uber.org/zap v1.27.0
@@ -88,4 +88,4 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..

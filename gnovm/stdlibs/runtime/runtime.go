@@ -1,6 +1,6 @@
 package runtime
 
-import gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
+import gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
 
 func GC(m *gno.Machine) {
 	_, ok := m.GarbageCollect()

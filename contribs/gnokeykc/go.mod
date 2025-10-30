@@ -2,10 +2,10 @@ module github.com/steve-care-software/gno/contribs/gnokeykc
 
 go 1.23.6
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
 require (
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 	github.com/zalando/go-keyring v0.2.3
 )
 

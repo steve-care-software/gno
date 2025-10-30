@@ -236,7 +236,7 @@ func TestCommands(t *testing.T) {
 //
 // This could have been implemented with simple closures generated within the
 // parser, however it's not because of this issue:
-// https://github.com/gnolang/gno/issues/1135
+// https://github.com/steve-care-software/gno/issues/1135
 type testCommandRunner interface {
 	Run(t *testing.T, bufs map[string]string)
 }
@@ -598,7 +598,7 @@ func runCommandTest(t *testing.T, command string) {
 }
 
 func catchPanic(tc testCommandRunner, t *testing.T, bufs map[string]string) {
-	// XXX: should prefer testing.Recover, but see: https://github.com/gnolang/gno/issues/1650
+	// XXX: should prefer testing.Recover, but see: https://github.com/steve-care-software/gno/issues/1650
 	e := revive(func() { tc.Run(t, bufs) })
 	if e == nil {
 		bufs["panic"] = ""

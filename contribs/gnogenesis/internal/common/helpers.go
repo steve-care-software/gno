@@ -3,11 +3,11 @@ package common
 import (
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/bip39"
-	"github.com/gnolang/gno/tm2/pkg/crypto/hd"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys/client"
-	"github.com/gnolang/gno/tm2/pkg/crypto/secp256k1"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/bip39"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/hd"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys/client"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/secp256k1"
 	"github.com/stretchr/testify/require"
 )
 

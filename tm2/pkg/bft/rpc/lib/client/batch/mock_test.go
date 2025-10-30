@@ -3,7 +3,7 @@ package batch
 import (
 	"context"
 
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
 )
 
 type sendBatchDelegate func(context.Context, types.RPCRequests) (types.RPCResponses, error)

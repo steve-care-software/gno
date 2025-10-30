@@ -821,7 +821,7 @@ var fmtTests = []struct {
 	{"%010.2", "12345", "%!(NOVERB)%!(EXTRA string=12345)"},
 
 	// Test that maps with non-reflexive keys print all keys and values.
-	// XXX: Unsupported in gno: https://github.com/gnolang/gno/issues/3867
+	// XXX: Unsupported in gno: https://github.com/steve-care-software/gno/issues/3867
 	// {"%v", map[float64]int{NaN: 1, NaN: 1}, "map[NaN:1 NaN:1]"},
 
 	// Comparison of padding rules with C printf.

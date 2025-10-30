@@ -27,6 +27,6 @@ jobs:
     uses: ./.github/workflows/template_main.yml
     with:
       modulepath: misc/${{ matrix.program }}
-      tests-extra-args: "-coverpkg=github.com/gnolang/gno/misc/..."
+      tests-extra-args: "-coverpkg=github.com/steve-care-software/gno/misc/..."
     secrets:
       codecov-token: ${{ secrets.CODECOV_TOKEN }}

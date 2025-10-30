@@ -7,9 +7,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/db"
-	_ "github.com/gnolang/gno/tm2/pkg/db/_all"
-	"github.com/gnolang/gno/tm2/pkg/db/internal"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
+	_ "github.com/steve-care-software/gno/tm2/pkg/db/_all"
+	"github.com/steve-care-software/gno/tm2/pkg/db/internal"
 )
 
 func testBackendGetSetDelete(t *testing.T, backend db.BackendType) {

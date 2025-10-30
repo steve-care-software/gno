@@ -1,19 +1,19 @@
 package rpc
 
-//nolint:revive // See https://github.com/gnolang/gno/issues/1197
+//nolint:revive // See https://github.com/steve-care-software/gno/issues/1197
 import (
 	"context"
 	"errors"
 	"fmt"
 
-	_ "github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	rpcClient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	_ "github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	rpcClient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 
-	"github.com/gnolang/gno/contribs/tx-archive/backup/client"
+	"github.com/steve-care-software/gno/contribs/tx-archive/backup/client"
 )
 
 var _ client.Client = &Client{}

@@ -13,13 +13,13 @@ As an open-source project, we welcome all contributions. On this page you can fi
 
 ## Where to get started
 
-If you are interested in contributing to Gno.land, you can jump on in on our [GitHub monorepo](https://github.com/gnolang/gno/blob/master/CONTRIBUTING.md) - where most development happens.
+If you are interested in contributing to Gno.land, you can jump on in on our [GitHub monorepo](https://github.com/steve-care-software/gno/blob/master/CONTRIBUTING.md) - where most development happens.
 
-A good place where to start are the issues tagged ["good first issue"](https://github.com/gnolang/gno/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22). They should allow you to make some impact on the Gno repository while you're still exploring the details of how everything works.
+A good place where to start are the issues tagged ["good first issue"](https://github.com/steve-care-software/gno/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22). They should allow you to make some impact on the Gno repository while you're still exploring the details of how everything works.
 
 ## Gno Bounties
 
-Additionally, you can look out to help on specific issues labeled as bounties. The Gno bounty program is a good way to find interesting challenges in Gno, and get rewarded for helping us advance the project. We will maintain open and rewardable bounties in the gnolang/gno repository, and you can search all available bounties by using the ["bounty" label](https://github.com/gnolang/gno/labels/bounty). For more detals on the categories and types of bounties, we have a [bounties README](https://github.com/gnolang/bounties).  
+Additionally, you can look out to help on specific issues labeled as bounties. The Gno bounty program is a good way to find interesting challenges in Gno, and get rewarded for helping us advance the project. We will maintain open and rewardable bounties in the gnolang/gno repository, and you can search all available bounties by using the ["bounty" label](https://github.com/steve-care-software/gno/labels/bounty). For more detals on the categories and types of bounties, we have a [bounties README](https://github.com/gnolang/bounties).  
 
 Recommendations on participating in the Gno.land Bounty Program:
 
@@ -31,7 +31,7 @@ Recommendations on participating in the Gno.land Bounty Program:
     - The core team will review the bounty PR submission after the work on the bounty has been completed, and determine if it qualifies for the bounty reward.
 - Ask for clarification early if an element on the requirements or implementation design is unclear.
     - Aside from publishing the PR early, keeping regular updates with the core team on the bounty issue is key to being on the right track.
-    - As part of the requirements, you must adhere to the [contributing guidelines](https://github.com/gnolang/gno/blob/master/CONTRIBUTING.md); additionally, it is expected that any newly added code or functionality is properly documented, tested and covered, at least in 80% of added code.
+    - As part of the requirements, you must adhere to the [contributing guidelines](https://github.com/steve-care-software/gno/blob/master/CONTRIBUTING.md); additionally, it is expected that any newly added code or functionality is properly documented, tested and covered, at least in 80% of added code.
     - You're welcome to propose additional features and work on an issue should you envision a plausible expansion or change in scope. The core team may assign a bounty to the additional work, or change the bounty with respect to the changed scope.
 
 You may make your submission at any time; however we invite you to publish your draft PR very early in the development process. This will make your work public, so you can easily get help by the core team and other community members. Additionally, your work can be continued by other people should you get stuck or no longer be willing to work on the bounty. Likewise, you can continue the abandoned or stuck work that someone else worked on.
@@ -64,13 +64,13 @@ t-shirt size | expected compensation
 _[XXL]_ \*   | $ 16000
 _[3XL]_ \*   | $ 32000
 
-[XS]:  https://github.com/gnolang/gno/labels/bounty%2FXS
-[S]:   https://github.com/gnolang/gno/labels/bounty%2FS
-[M]:   https://github.com/gnolang/gno/labels/bounty%2FM
-[L]:   https://github.com/gnolang/gno/labels/bounty%2FL
-[XL]:  https://github.com/gnolang/gno/labels/bounty%2FXL
-[XXL]: https://github.com/gnolang/gno/labels/bounty%2FXXL
-[3XL]: https://github.com/gnolang/gno/labels/bounty%2F3XL
+[XS]:  https://github.com/steve-care-software/gno/labels/bounty%2FXS
+[S]:   https://github.com/steve-care-software/gno/labels/bounty%2FS
+[M]:   https://github.com/steve-care-software/gno/labels/bounty%2FM
+[L]:   https://github.com/steve-care-software/gno/labels/bounty%2FL
+[XL]:  https://github.com/steve-care-software/gno/labels/bounty%2FXL
+[XXL]: https://github.com/steve-care-software/gno/labels/bounty%2FXXL
+[3XL]: https://github.com/steve-care-software/gno/labels/bounty%2F3XL
 
 \*: XXL and 3XL bounties are exceptional. Almost no issues will have these sizes; most will be broken down into smaller bounties.
 

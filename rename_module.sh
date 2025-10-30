@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-OLD="github.com/gnolang/gno"
-NEW="github.com/steve-care-software/gno"
+OLD="github.com/steve-care-software/gnonative"
+NEW="github.com/gnolang/gnonative"
 
 echo "==> Snapshot current state"
 git add -A && git commit -m "pre-rename snapshot" || true

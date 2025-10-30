@@ -10,7 +10,7 @@ import (
 	ics23 "github.com/cosmos/ics23/go"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
 )
 
 func TestGetMembership(t *testing.T) {

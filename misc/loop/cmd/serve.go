@@ -7,10 +7,10 @@ import (
 	"os"
 	"time"
 
-	"github.com/gnolang/gno/misc/loop/cmd/cfg"
-	"github.com/gnolang/gno/misc/loop/cmd/portalloop"
+	"github.com/steve-care-software/gno/misc/loop/cmd/cfg"
+	"github.com/steve-care-software/gno/misc/loop/cmd/portalloop"
 
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 func NewServeCmd(_ commands.IO) *commands.Command {

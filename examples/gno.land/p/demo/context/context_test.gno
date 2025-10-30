@@ -57,7 +57,7 @@ func TestValues(t *testing.T) {
 	c0 := Empty()
 	check(c0, "c0", "", "", "")
 
-	t.Skip() // XXX: depends on https://github.com/gnolang/gno/issues/2386
+	t.Skip() // XXX: depends on https://github.com/steve-care-software/gno/issues/2386
 
 	c1 := WithValue(Empty(), k1, "c1k1")
 	check(c1, "c1", "c1k1", "", "")

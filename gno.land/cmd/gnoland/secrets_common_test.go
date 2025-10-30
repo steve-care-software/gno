@@ -3,8 +3,8 @@ package main
 import (
 	"testing"
 
-	signer "github.com/gnolang/gno/tm2/pkg/bft/privval/signer/local"
-	fstate "github.com/gnolang/gno/tm2/pkg/bft/privval/state"
+	signer "github.com/steve-care-software/gno/tm2/pkg/bft/privval/signer/local"
+	fstate "github.com/steve-care-software/gno/tm2/pkg/bft/privval/state"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

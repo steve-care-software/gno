@@ -8,13 +8,13 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/address"
-	"github.com/gnolang/gno/contribs/gnodev/pkg/dev"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/address"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/dev"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type varPremineAccounts map[string]std.Coins // name or bech32 to coins.

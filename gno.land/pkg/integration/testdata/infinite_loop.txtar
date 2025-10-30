@@ -1,6 +1,6 @@
 # XXX(FIXME): fix qeval first
 
-# regression test for https://github.com/gnolang/gno/issues/3612
+# regression test for https://github.com/steve-care-software/gno/issues/3612
 # infinite loops should panic in all of simulate, query, render, maketx run and addpkg.
 
 gnoland start

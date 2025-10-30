@@ -4,14 +4,14 @@ import (
 	"encoding/json"
 	"time"
 
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	cnscfg "github.com/gnolang/gno/tm2/pkg/bft/consensus/config"
-	cstypes "github.com/gnolang/gno/tm2/pkg/bft/consensus/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/state"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/p2p"
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	cnscfg "github.com/steve-care-software/gno/tm2/pkg/bft/consensus/config"
+	cstypes "github.com/steve-care-software/gno/tm2/pkg/bft/consensus/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/state"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 // List of blocks

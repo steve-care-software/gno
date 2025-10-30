@@ -5,7 +5,7 @@ import (
 	"math/big"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/gnolang/gno/gnovm/pkg/gnolang/internal/softfloat"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang/internal/softfloat"
 )
 
 func (m *Machine) doOpUpos() {

@@ -15,9 +15,9 @@ func (b BackendType) String() string {
 // These are valid backend types.
 //
 // The backends themselves must be imported to be used (ie. using the blank
-// import, `import _ "github.com/gnolang/gno/tm2/pkg/db/goleveldb"`). To allow
+// import, `import _ "github.com/steve-care-software/gno/tm2/pkg/db/goleveldb"`). To allow
 // for end-user customization at build time, the package
-// "github.com/gnolang/gno/tm2/pkg/db/_tags" can be imported -- this package
+// "github.com/steve-care-software/gno/tm2/pkg/db/_tags" can be imported -- this package
 // will import each database depending on whether its build tag is provided.
 //
 // This can be used in conjunction with specific to provide defaults, for instance:
@@ -25,9 +25,9 @@ func (b BackendType) String() string {
 //	package main
 //
 //	import (
-//		"github.com/gnolang/gno/tm2/pkg/db"
-//		_ "github.com/gnolang/gno/tm2/pkg/db/_tags" // allow user to customize with build tags
-//		_ "github.com/gnolang/gno/tm2/pkg/db/memdb" // always support memdb
+//		"github.com/steve-care-software/gno/tm2/pkg/db"
+//		_ "github.com/steve-care-software/gno/tm2/pkg/db/_tags" // allow user to customize with build tags
+//		_ "github.com/steve-care-software/gno/tm2/pkg/db/memdb" // always support memdb
 //	)
 //
 //	func main() {

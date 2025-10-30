@@ -10,8 +10,8 @@ import (
 
 	"go.etcd.io/bbolt"
 
-	"github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/internal"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/internal"
 )
 
 var bucket = []byte("tm")

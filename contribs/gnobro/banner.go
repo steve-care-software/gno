@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gnolang/gno/contribs/gnobro/pkg/browser"
+	"github.com/steve-care-software/gno/contribs/gnobro/pkg/browser"
 )
 
 //go:embed assets/*.utf8ans

@@ -9,8 +9,8 @@ import (
 	"io"
 	"text/template"
 
-	"github.com/gnolang/gno/gnovm/pkg/packages"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gnovm/pkg/packages"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type listCfg struct {

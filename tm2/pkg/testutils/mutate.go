@@ -3,7 +3,7 @@ package testutils
 import (
 	"slices"
 
-	"github.com/gnolang/gno/tm2/pkg/random"
+	"github.com/steve-care-software/gno/tm2/pkg/random"
 )
 
 // Contract: !bytes.Equal(input, output) && len(input) >= len(output)

@@ -1,9 +1,9 @@
 package gnoclient_test
 
 import (
-	"github.com/gnolang/gno/gno.land/pkg/gnoclient"
-	rpcclient "github.com/gnolang/gno/tm2/pkg/bft/rpc/client"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoclient"
+	rpcclient "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/client"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
 )
 
 // Example_withDisk demonstrates how to initialize a gnoclient with a keybase sourced from a directory.

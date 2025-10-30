@@ -6,7 +6,7 @@ import (
 	"math/big"
 
 	"github.com/cockroachdb/apd/v3"
-	"github.com/gnolang/gno/gnovm/pkg/gnolang/internal/softfloat"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang/internal/softfloat"
 )
 
 // t cannot be nil or untyped or DataByteType.

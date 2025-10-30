@@ -1,4 +1,4 @@
-# https://github.com/gnolang/gno/issues/2763
+# https://github.com/steve-care-software/gno/issues/2763
 
 ! gno test .
 stderr 'foo_test.gno:16:6: add2 redeclared in this block \(code=gnoTypeCheckError\)'

@@ -4,10 +4,10 @@ import (
 	"errors"
 
 	"github.com/gnolang/contribs/gnogenesis/internal/common"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/commands"
-	"github.com/gnolang/gno/tm2/pkg/sdk/auth"
-	"github.com/gnolang/gno/tm2/pkg/sdk/bank"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/auth"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/bank"
 )
 
 type paramsCfg struct {

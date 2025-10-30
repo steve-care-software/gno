@@ -4,7 +4,7 @@ import (
 	gopath "path"
 	"strings"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb"
 )
 
 func redirectWebPath(path string) string {

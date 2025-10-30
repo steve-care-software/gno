@@ -1,13 +1,13 @@
 package legacy
 
-//nolint:revive // See https://github.com/gnolang/gno/issues/1197
+//nolint:revive // See https://github.com/steve-care-software/gno/issues/1197
 import (
 	"fmt"
 	"io"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland"
-	_ "github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	"github.com/gnolang/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland"
+	_ "github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
 )
 
 type Writer struct {

@@ -6,9 +6,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 type RoundVoteSet struct {

@@ -7,12 +7,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	typesver "github.com/gnolang/gno/tm2/pkg/bft/types/version"
-	"github.com/gnolang/gno/tm2/pkg/bitarray"
-	"github.com/gnolang/gno/tm2/pkg/crypto/merkle"
-	"github.com/gnolang/gno/tm2/pkg/crypto/tmhash"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	typesver "github.com/steve-care-software/gno/tm2/pkg/bft/types/version"
+	"github.com/steve-care-software/gno/tm2/pkg/bitarray"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/merkle"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/tmhash"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 // Block defines the atomic unit of a Tendermint blockchain.

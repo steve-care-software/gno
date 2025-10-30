@@ -18,6 +18,6 @@ jobs:
     uses: ./.github/workflows/template_main.yml
     with:
       modulepath: "tm2"
-      tests-extra-args: "-coverpkg=github.com/gnolang/gno/tm2/..."
+      tests-extra-args: "-coverpkg=github.com/steve-care-software/gno/tm2/..."
     secrets:
       codecov-token: ${{ secrets.CODECOV_TOKEN }}

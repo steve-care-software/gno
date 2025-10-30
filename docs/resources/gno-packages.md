@@ -128,7 +128,7 @@ import (
 ## Commonly Used Pure Packages
 
 To better understand how packages work, let's look at a few commonly used ones
-from the [`examples`](https://github.com/gnolang/gno/tree/master/examples/)
+from the [`examples`](https://github.com/steve-care-software/gno/tree/master/examples/)
 folder. 
 
 ### Package `avl`
@@ -166,7 +166,7 @@ func Get(key string) int {
 ```
 
 View the package on the [Staging network](https://gno.land/p/nt/avl)
-or on [GitHub](https://github.com/gnolang/gno/tree/master/examples/gno.land/p/nt/avl).
+or on [GitHub](https://github.com/steve-care-software/gno/tree/master/examples/gno.land/p/nt/avl).
 
 ### Package `ufmt`
 
@@ -181,7 +181,7 @@ package ufmt
 ```
 
 View the package on the [Staging network](https://gno.land/p/nt/ufmt) or
-on [GitHub](https://github.com/gnolang/gno/tree/master/examples/gno.land/p/nt/ufmt).
+on [GitHub](https://github.com/steve-care-software/gno/tree/master/examples/gno.land/p/nt/ufmt).
 
 ### Package `seqid`
 
@@ -204,7 +204,7 @@ package seqid
 ```
 
 View the package on the [Staging network](https://gno.land/p/nt/seqid) or
-on [GitHub](https://github.com/gnolang/gno/tree/master/examples/gno.land/p/nt/seqid).
+on [GitHub](https://github.com/steve-care-software/gno/tree/master/examples/gno.land/p/nt/seqid).
 
 ## Exploring Deployed Packages
 

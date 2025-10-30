@@ -3,8 +3,8 @@ package auth
 import (
 	"context"
 
-	"github.com/gnolang/gno/contribs/gnokms/internal/common"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/gnokms/internal/common"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 // newAuthIdentity creates the auth identity subcommand.

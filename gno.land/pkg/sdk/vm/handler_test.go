@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/gnolang/gno/gnovm/pkg/doc"
-	"github.com/gnolang/gno/gnovm/pkg/gnolang"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 	"github.com/stretchr/testify/assert"
 )
 

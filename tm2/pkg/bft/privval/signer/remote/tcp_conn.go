@@ -7,8 +7,8 @@ import (
 	"slices"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	p2pconn "github.com/gnolang/gno/tm2/pkg/p2p/conn"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	p2pconn "github.com/steve-care-software/gno/tm2/pkg/p2p/conn"
 )
 
 // Constants for the connection protocols.

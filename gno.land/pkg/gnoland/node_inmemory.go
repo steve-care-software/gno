@@ -7,17 +7,17 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	tmcfg "github.com/gnolang/gno/tm2/pkg/bft/config"
-	"github.com/gnolang/gno/tm2/pkg/bft/node"
-	"github.com/gnolang/gno/tm2/pkg/bft/proxy"
-	bft "github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto/ed25519"
-	"github.com/gnolang/gno/tm2/pkg/db"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/events"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	tmcfg "github.com/steve-care-software/gno/tm2/pkg/bft/config"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/node"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/proxy"
+	bft "github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/ed25519"
+	"github.com/steve-care-software/gno/tm2/pkg/db"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/events"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 type InMemoryNodeConfig struct {

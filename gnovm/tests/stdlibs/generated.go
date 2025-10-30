@@ -6,12 +6,12 @@ package stdlibs
 import (
 	"reflect"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	testlibs_chain_runtime "github.com/gnolang/gno/gnovm/tests/stdlibs/chain/runtime"
-	testlibs_fmt "github.com/gnolang/gno/gnovm/tests/stdlibs/fmt"
-	testlibs_os "github.com/gnolang/gno/gnovm/tests/stdlibs/os"
-	testlibs_testing "github.com/gnolang/gno/gnovm/tests/stdlibs/testing"
-	testlibs_unicode "github.com/gnolang/gno/gnovm/tests/stdlibs/unicode"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	testlibs_chain_runtime "github.com/steve-care-software/gno/gnovm/tests/stdlibs/chain/runtime"
+	testlibs_fmt "github.com/steve-care-software/gno/gnovm/tests/stdlibs/fmt"
+	testlibs_os "github.com/steve-care-software/gno/gnovm/tests/stdlibs/os"
+	testlibs_testing "github.com/steve-care-software/gno/gnovm/tests/stdlibs/testing"
+	testlibs_unicode "github.com/steve-care-software/gno/gnovm/tests/stdlibs/unicode"
 )
 
 // NativeFunc represents a function in the standard library which has a native

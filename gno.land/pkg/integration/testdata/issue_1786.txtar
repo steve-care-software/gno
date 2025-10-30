@@ -1,6 +1,6 @@
 # XXX: NEED UPDATE: cannot send transfer to self
 
-# Test for https://github.com/gnolang/gno/issues/1786
+# Test for https://github.com/steve-care-software/gno/issues/1786
 
 loadpkg gno.land/r/gnoland/wugnot
 

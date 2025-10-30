@@ -217,7 +217,7 @@ func TestDelete(t *testing.T) {
 }
 
 // cleanStore should not be needed, as vm store should be reset after each test.
-// Reference: https://github.com/gnolang/gno/issues/1982
+// Reference: https://github.com/steve-care-software/gno/issues/1982
 func cleanStore(t *testing.T) {
 	t.Helper()
 

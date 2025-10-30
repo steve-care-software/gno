@@ -59,7 +59,7 @@ gnokey query vm/qrender --data "gno.land/r/gnoland/wugnot:"
 stdout 'Total supply..: 20000'
 stdout 'Known accounts..: 2' # user1 is no longer known, as they transferred all their balance
 
-# XXX: use test3 instead (depends on https://github.com/gnolang/gno/issues/1269#issuecomment-1806386069)
+# XXX: use test3 instead (depends on https://github.com/steve-care-software/gno/issues/1269#issuecomment-1806386069)
 gnokey maketx call -pkgpath gno.land/r/gnoland/wugnot -func Withdraw -args 10000 -gas-fee 11000ugnot -gas-wanted 11_000_000 -broadcast -chainid=tendermint_test user3
 stdout 'OK!'
 

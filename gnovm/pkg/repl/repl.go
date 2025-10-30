@@ -6,9 +6,9 @@ import (
 	"io"
 	"os"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/test"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/test"
 )
 
 type ReplOption func(*Repl)

@@ -3,9 +3,9 @@ package discovery
 import (
 	"net"
 
-	"github.com/gnolang/gno/tm2/pkg/p2p"
-	"github.com/gnolang/gno/tm2/pkg/p2p/events"
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/events"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 type (

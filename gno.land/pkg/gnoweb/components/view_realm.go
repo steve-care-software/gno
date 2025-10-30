@@ -1,7 +1,7 @@
 package components
 
 import (
-	"github.com/gnolang/gno/gno.land/pkg/gnoweb/markdown"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoweb/markdown"
 )
 
 const RealmViewType ViewType = "realm-view"

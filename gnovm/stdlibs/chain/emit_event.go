@@ -1,14 +1,14 @@
 package chain
 
-// ref: https://github.com/gnolang/gno/pull/575
-// ref: https://github.com/gnolang/gno/pull/1833
+// ref: https://github.com/steve-care-software/gno/pull/575
+// ref: https://github.com/steve-care-software/gno/pull/1833
 
 import (
 	"errors"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/stdlibs/internal/execctx"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/internal/execctx"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 var errInvalidGnoEventAttrs = errors.New("cannot pair attributes due to odd count")

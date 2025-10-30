@@ -2,10 +2,10 @@ module github.com/steve-care-software/gno/contribs/github-bot
 
 go 1.23.6
 
-replace github.com/gnolang/gno => ../..
+replace github.com/steve-care-software/gno => ../..
 
 require (
-	github.com/gnolang/gno v0.0.0-00010101000000-000000000000
+	github.com/steve-care-software/gno v0.0.0-00010101000000-000000000000
 	github.com/google/go-github/v64 v64.0.0
 	github.com/migueleliasweb/go-github-mock v1.0.1
 	github.com/sethvargo/go-githubactions v1.3.0

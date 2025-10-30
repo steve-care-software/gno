@@ -16,8 +16,8 @@ import (
 	"google.golang.org/protobuf/types/known/durationpb"
 	"google.golang.org/protobuf/types/known/timestamppb"
 
-	"github.com/gnolang/gno/tm2/pkg/amino/pkg"
-	"github.com/gnolang/gno/tm2/pkg/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/amino/pkg"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
 )
 
 // Package "pkg" exists So dependencies can create Packages.
@@ -905,7 +905,7 @@ func RegisterPackage(pi *pkg.Package) *Package {
 }
 
 // Create an unregistered amino package with args:
-// - (gopkg string) The Go package path, e.g. "github.com/gnolang/gno/tm2/pkg/std"
+// - (gopkg string) The Go package path, e.g. "github.com/steve-care-software/gno/tm2/pkg/std"
 // - (p3pkg string) The (shorter) Proto3 package path (no slashes), e.g. "std"
 // - (dirname string) Package directory this is called from. Typical is to use `amino.GetCallersDirname()`
 func NewPackage(gopkg string, p3pkg string, dirname string) *Package {

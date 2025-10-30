@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/stdlibs/internal/execctx"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/internal/execctx"
 )
 
 // std.SetParam*() can only be used to set realm-local VM parameters.  All

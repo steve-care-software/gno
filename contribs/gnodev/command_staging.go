@@ -6,9 +6,9 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/packages"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/packages"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 type StagingAppConfig struct {

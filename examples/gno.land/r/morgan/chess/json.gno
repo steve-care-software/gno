@@ -13,7 +13,7 @@ import (
 
 // This file contains a bunch of JSON marshalers.
 // These should disappear eventually!
-// https://github.com/gnolang/gno/issues/1655
+// https://github.com/steve-care-software/gno/issues/1655
 
 func (g Game) MarshalJSON() (retBytes []byte, err error) {
 	var b bytes.Buffer

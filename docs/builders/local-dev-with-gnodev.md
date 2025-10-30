@@ -59,7 +59,7 @@ package name and deploys it under `gno.land/r/dev/<pkgname>`.
 #### Deploying example packages
 
 In addition to your working directory, `gnodev` automatically deploys all packages
-and realms located in the [examples/ folder](https://github.com/gnolang/gno/tree/master/examples)
+and realms located in the [examples/ folder](https://github.com/steve-care-software/gno/tree/master/examples)
 from the monorepo it was installed from. This makes all packages in the `examples/`
 folder available for use during development. `gnodev` also provides the option
 to resolve packages from a remote testnet, which can be set via the `-resolver` flag.

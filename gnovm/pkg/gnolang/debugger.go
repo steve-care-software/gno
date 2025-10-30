@@ -18,7 +18,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
 )
 
 // DebugState is the state of the machine debugger, defined by a finite state

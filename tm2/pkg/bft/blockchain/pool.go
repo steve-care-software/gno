@@ -9,11 +9,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/flow"
-	"github.com/gnolang/gno/tm2/pkg/log"
-	p2pTypes "github.com/gnolang/gno/tm2/pkg/p2p/types"
-	"github.com/gnolang/gno/tm2/pkg/service"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/flow"
+	"github.com/steve-care-software/gno/tm2/pkg/log"
+	p2pTypes "github.com/steve-care-software/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/service"
 )
 
 /*

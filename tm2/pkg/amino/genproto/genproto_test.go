@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	sm1 "github.com/gnolang/gno/tm2/pkg/amino/genproto/example/submodule"
+	sm1 "github.com/steve-care-software/gno/tm2/pkg/amino/genproto/example/submodule"
 	"github.com/stretchr/testify/assert"
 )
 
@@ -27,16 +27,16 @@ func TestBasic(t *testing.T) {
 package test;
 
 // imports
-import "github.com/gnolang/gno/tm2/pkg/amino/genproto/example/submodule2/submodule2.proto";`, p3doc.Print())
+import "github.com/steve-care-software/gno/tm2/pkg/amino/genproto/example/submodule2/submodule2.proto";`, p3doc.Print())
 
 	p3doc = p3c.GenerateProto3SchemaForTypes(sm1.Package, reflect.TypeOf(obj))
 	assert.Equal(t, `syntax = "proto3";
 package submodule;
 
-option go_package = "github.com/gnolang/gno/tm2/pkg/amino/genproto/example/submodule/pb";
+option go_package = "github.com/steve-care-software/gno/tm2/pkg/amino/genproto/example/submodule/pb";
 
 // imports
-import "github.com/gnolang/gno/tm2/pkg/amino/genproto/example/submodule2/submodule2.proto";
+import "github.com/steve-care-software/gno/tm2/pkg/amino/genproto/example/submodule2/submodule2.proto";
 
 // messages
 message StructSM {

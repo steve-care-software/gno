@@ -51,7 +51,7 @@ services:
         gnoland secrets init
         rm -f /gnoroot/shared-data/node_p2p.id
         apk add git make go linux-headers
-        git clone https://github.com/gnolang/gno.git --single-branch gnoland-src
+        git clone https://github.com/steve-care-software/gno.git --single-branch gnoland-src
         GOPATH='/usr/' make -C gnoland-src/contribs/gnogenesis/
         gnogenesis generate
         gnogenesis validator add -name val000 -address $(gnoland secrets get validator_key.address -raw) -pub-key $(gnoland secrets get validator_key.pub_key -raw)

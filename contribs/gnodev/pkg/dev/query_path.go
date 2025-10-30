@@ -5,9 +5,9 @@ import (
 	"net/url"
 	"path"
 
-	"github.com/gnolang/gno/contribs/gnodev/pkg/address"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/contribs/gnodev/pkg/address"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 type QueryPath struct {

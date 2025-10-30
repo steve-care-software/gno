@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	types "github.com/gnolang/gno/tm2/pkg/bft/rpc/lib/types"
+	types "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/lib/types"
 )
 
 const (

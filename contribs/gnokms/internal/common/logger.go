@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log/slog"
 
-	"github.com/gnolang/gno/gno.land/pkg/log"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/gno.land/pkg/log"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 )
 
 // Used to flush the logger.

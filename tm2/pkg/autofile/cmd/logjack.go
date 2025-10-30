@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	auto "github.com/gnolang/gno/tm2/pkg/autofile"
-	"github.com/gnolang/gno/tm2/pkg/flow"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
+	auto "github.com/steve-care-software/gno/tm2/pkg/autofile"
+	"github.com/steve-care-software/gno/tm2/pkg/flow"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
 )
 
 const (

@@ -19,25 +19,25 @@ import (
 	"sync"
 	"time"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/gnovm/pkg/doc"
-	"github.com/gnolang/gno/gnovm/pkg/gnoenv"
-	gno "github.com/gnolang/gno/gnovm/pkg/gnolang"
-	"github.com/gnolang/gno/gnovm/pkg/gnomod"
-	"github.com/gnolang/gno/gnovm/stdlibs"
-	"github.com/gnolang/gno/gnovm/stdlibs/chain"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/db/memdb"
-	"github.com/gnolang/gno/tm2/pkg/errors"
-	osm "github.com/gnolang/gno/tm2/pkg/os"
-	"github.com/gnolang/gno/tm2/pkg/overflow"
-	"github.com/gnolang/gno/tm2/pkg/sdk"
-	"github.com/gnolang/gno/tm2/pkg/std"
-	"github.com/gnolang/gno/tm2/pkg/store"
-	"github.com/gnolang/gno/tm2/pkg/store/dbadapter"
-	stypes "github.com/gnolang/gno/tm2/pkg/store/types"
-	"github.com/gnolang/gno/tm2/pkg/telemetry"
-	"github.com/gnolang/gno/tm2/pkg/telemetry/metrics"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/gnovm/pkg/doc"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnoenv"
+	gno "github.com/steve-care-software/gno/gnovm/pkg/gnolang"
+	"github.com/steve-care-software/gno/gnovm/pkg/gnomod"
+	"github.com/steve-care-software/gno/gnovm/stdlibs"
+	"github.com/steve-care-software/gno/gnovm/stdlibs/chain"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/db/memdb"
+	"github.com/steve-care-software/gno/tm2/pkg/errors"
+	osm "github.com/steve-care-software/gno/tm2/pkg/os"
+	"github.com/steve-care-software/gno/tm2/pkg/overflow"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/tm2/pkg/store"
+	"github.com/steve-care-software/gno/tm2/pkg/store/dbadapter"
+	stypes "github.com/steve-care-software/gno/tm2/pkg/store/types"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry"
+	"github.com/steve-care-software/gno/tm2/pkg/telemetry/metrics"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/metric"
 )
@@ -774,7 +774,7 @@ func (vm *VMKeeper) Run(ctx sdk.Context, msg MsgRun) (res string, err error) {
 	buf := new(bytes.Buffer)
 	output := io.Writer(buf)
 
-	// XXX: see reason of private for run msg here: https://github.com/gnolang/gno/pull/4594
+	// XXX: see reason of private for run msg here: https://github.com/steve-care-software/gno/pull/4594
 	gm := new(gnomod.File)
 	gm.Module = memPkg.Path
 	gm.Gno = gno.GnoVerLatest

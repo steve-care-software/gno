@@ -28,7 +28,7 @@ Following through on tasks and being reliable keeps the momentum going. Quality
 matters too as we are aiming for the highest standard for Gno.land—thoughtful,
 useful, and well-documented work is much easier to integrate and makes a stronger
 impact in the ecosystem. Sticking to contributor
-[submission guidelines](https://github.com/gnolang/gno/blob/master/CONTRIBUTING.md)
+[submission guidelines](https://github.com/steve-care-software/gno/blob/master/CONTRIBUTING.md)
 helps speed up reviews and get your contributions merged faster.
 
 ## Showcasing Your Work & Engaging with the Community

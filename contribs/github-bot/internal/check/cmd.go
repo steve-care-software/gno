@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/gnolang/gno/contribs/github-bot/internal/utils"
-	"github.com/gnolang/gno/tm2/pkg/commands"
+	"github.com/steve-care-software/gno/contribs/github-bot/internal/utils"
+	"github.com/steve-care-software/gno/tm2/pkg/commands"
 	"github.com/sethvargo/go-githubactions"
 )
 

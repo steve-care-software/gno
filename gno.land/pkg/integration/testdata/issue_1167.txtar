@@ -1,4 +1,4 @@
-# Reproducible Test for https://github.com/gnolang/gno/issues/1167
+# Reproducible Test for https://github.com/steve-care-software/gno/issues/1167
 loadpkg gno.land/p/nt/avl
 
 gnoland start

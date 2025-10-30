@@ -5,20 +5,20 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/gnolang/gno/tm2/pkg/amino"
-	abciErrors "github.com/gnolang/gno/tm2/pkg/bft/abci/example/errors"
+	"github.com/steve-care-software/gno/tm2/pkg/amino"
+	abciErrors "github.com/steve-care-software/gno/tm2/pkg/bft/abci/example/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gnolang/gno/gno.land/pkg/gnoland/ugnot"
-	"github.com/gnolang/gno/gno.land/pkg/sdk/vm"
-	abci "github.com/gnolang/gno/tm2/pkg/bft/abci/types"
-	ctypes "github.com/gnolang/gno/tm2/pkg/bft/rpc/core/types"
-	"github.com/gnolang/gno/tm2/pkg/bft/types"
-	"github.com/gnolang/gno/tm2/pkg/crypto"
-	"github.com/gnolang/gno/tm2/pkg/crypto/keys"
-	"github.com/gnolang/gno/tm2/pkg/sdk/bank"
-	"github.com/gnolang/gno/tm2/pkg/std"
+	"github.com/steve-care-software/gno/gno.land/pkg/gnoland/ugnot"
+	"github.com/steve-care-software/gno/gno.land/pkg/sdk/vm"
+	abci "github.com/steve-care-software/gno/tm2/pkg/bft/abci/types"
+	ctypes "github.com/steve-care-software/gno/tm2/pkg/bft/rpc/core/types"
+	"github.com/steve-care-software/gno/tm2/pkg/bft/types"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto/keys"
+	"github.com/steve-care-software/gno/tm2/pkg/sdk/bank"
+	"github.com/steve-care-software/gno/tm2/pkg/std"
 )
 
 var testGasFee = ugnot.ValueString(10000)

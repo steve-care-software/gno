@@ -3,7 +3,7 @@ package p2p
 import (
 	"sync"
 
-	"github.com/gnolang/gno/tm2/pkg/p2p/types"
+	"github.com/steve-care-software/gno/tm2/pkg/p2p/types"
 )
 
 type set struct {

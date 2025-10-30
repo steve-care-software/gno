@@ -73,7 +73,7 @@ func RenderHome() string {
 	// Report Bug section
 	builder.WriteString("### Report a Bug 🪲\n\n")
 	builder.WriteString("Something unusual happened? Help us improve the game by reporting bugs!\n")
-	builder.WriteString("[Visit our GitHub repository](https://github.com/gnolang/gno/issues)\n\n")
+	builder.WriteString("[Visit our GitHub repository](https://github.com/steve-care-software/gno/issues)\n\n")
 	builder.WriteString("Please include:\n")
 	builder.WriteString("* Detailed description of what happened\n")
 	builder.WriteString("* Transaction hash (if applicable)\n")

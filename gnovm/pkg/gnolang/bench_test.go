@@ -9,11 +9,11 @@ var sink any = nil
 var pkgIDPaths = []string{
 	"encoding/json",
 	"math/bits",
-	"github.com/gnolang/gno/gnovm/pkg/gnolang",
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang",
 	"a",
 	" ",
 	"",
-	"github.com/gnolang/gno/gnovm/pkg/gnolang/vendor/pkg/github.com/gnolang/vendored",
+	"github.com/steve-care-software/gno/gnovm/pkg/gnolang/vendor/pkg/github.com/gnolang/vendored",
 }
 
 func BenchmarkPkgIDFromPkgPath(b *testing.B) {

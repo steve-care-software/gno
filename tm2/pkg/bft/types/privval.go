@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/gnolang/gno/tm2/pkg/crypto"
+	"github.com/steve-care-software/gno/tm2/pkg/crypto"
 )
 
 // PrivValidator defines the functionality of a local Tendermint validator
