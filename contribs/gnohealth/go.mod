@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnohealth
+module github.com/steve-care-software/gno/contribs/gnohealth
 
 go 1.23.6
 

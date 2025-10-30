@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnobro
+module github.com/steve-care-software/gno/contribs/gnobro
 
 go 1.23.6
 

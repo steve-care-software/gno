@@ -1,4 +1,4 @@
-module github.com/gnolang/gno
+module github.com/steve-care-software/gno
 
 go 1.23.0
 

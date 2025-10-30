@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/misc/loop
+module github.com/steve-care-software/gno/misc/loop
 
 go 1.23.6
 

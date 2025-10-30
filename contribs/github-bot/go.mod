@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/github-bot
+module github.com/steve-care-software/gno/contribs/github-bot
 
 go 1.23.6
 

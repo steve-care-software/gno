@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnodev
+module github.com/steve-care-software/gno/contribs/gnodev
 
 go 1.23.6
 

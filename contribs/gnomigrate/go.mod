@@ -1,4 +1,4 @@
-module github.com/gnolang/gnomigrate
+module github.com/steve-care-software/gnomigrate
 
 go 1.23.6
 

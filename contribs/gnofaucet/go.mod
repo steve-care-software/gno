@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnofaucet
+module github.com/steve-care-software/gno/contribs/gnofaucet
 
 go 1.24.0
 

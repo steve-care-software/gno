@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/misc/devdeps
+module github.com/steve-care-software/gno/misc/devdeps
 
 go 1.23.0
 

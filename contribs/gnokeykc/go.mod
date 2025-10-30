@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnokeykc
+module github.com/steve-care-software/gno/contribs/gnokeykc
 
 go 1.23.6
 

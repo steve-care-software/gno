@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/misc/stdlib_diff
+module github.com/steve-care-software/gno/misc/stdlib_diff
 
 go 1.23.6
 

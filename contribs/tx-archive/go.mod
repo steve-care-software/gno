@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/tx-archive
+module github.com/steve-care-software/gno/contribs/tx-archive
 
 go 1.23.6
 

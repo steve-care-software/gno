@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnokms
+module github.com/steve-care-software/gno/contribs/gnokms
 
 go 1.23.6
 

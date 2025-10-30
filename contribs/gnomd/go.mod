@@ -1,4 +1,4 @@
-module github.com/gnolang/gno/contribs/gnomd
+module github.com/steve-care-software/gno/contribs/gnomd
 
 go 1.22
 

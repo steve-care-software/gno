@@ -8,7 +8,6 @@ echo "==> Snapshot current state"
 git add -A && git commit -m "pre-rename snapshot" || true
 
 echo "==> Update module paths in ALL go.mod files"
-# For each go.mod, compute the new module path by replacing the prefix.
 while IFS= read -r -d '' gomod; do
   moddir="$(dirname "$gomod")"
   oldmod="$(awk '/^module /{print $2}' "$gomod")"
@@ -20,8 +19,6 @@ while IFS= read -r -d '' gomod; do
 done < <(find . -type f -name go.mod -not -path '*/.git/*' -print0)
 
 echo "==> Rewrite ALL references to imports/paths"
-# BSD sed needs -i '' for in-place without backups.
-# Only touch text files and skip .git.
 find . -type f -not -path '*/.git/*' -print0 \
 | xargs -0 grep -IlZ "$OLD" \
 | xargs -0 sed -i '' "s|$OLD|$NEW|g"
